@@ -114,3 +114,21 @@ tbody tr:hover { background: var(--surface2); }
   .mapcanvas canvas { height: 440px; }
   .kv { grid-template-columns: 120px 1fr; }
 }
+
+/* schematic cell */
+.cellfig.withlist { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; }
+.cellsvg { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 6px; }
+.cellsvg svg { display: block; width: 100%; height: auto; }
+.cellfig.compact .cellsvg { border: none; padding: 0; background: none; }
+.cellfig .nbr { cursor: pointer; transition: opacity .15s; }
+.cellsvg svg.dim .nbr { opacity: .18; }
+.cellsvg svg.dim .nbr.hi { opacity: 1; }
+.cellsvg .badge-c text { fill: #fff; font: 700 12px system-ui, sans-serif; pointer-events: none; }
+.cell-list { list-style: none; margin: 0; padding: 0; columns: 1; }
+.cell-list li { display: flex; align-items: center; gap: 8px; padding: 3px 6px; border-radius: 6px; font-size: .86rem; }
+.cell-list li:hover, .cell-list li.hi { background: var(--surface2); }
+.cell-list li.low { opacity: .6; }
+.cell-list .num { flex: none; width: 22px; height: 22px; border-radius: 50%; color: #fff; font-size: .75rem; font-weight: 700; display: grid; place-items: center; }
+.cell-list .nm { flex: 1; }
+@media (max-width: 860px) { .cellfig.withlist { grid-template-columns: 1fr; } .cell-list { columns: 2; } }
+@media (max-width: 520px) { .cell-list { columns: 1; } }

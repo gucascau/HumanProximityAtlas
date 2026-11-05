@@ -138,6 +138,9 @@ function home() {
       <a class="card" href="#/studies"><h3>Studies →</h3><p class="muted">The ${num(s.projects)} reanalysed projects with technology, cell line and reliability tier.</p></a>
       <a class="card" href="#/toolkit"><h3>ProxLabToolkit →</h3><p class="muted">The consensus statistical framework used to score every comparison. Open source.</p></a>
     </div>
+    <h2>Explore the cell</h2>
+    <p class="muted small" style="margin-top:-4px">Hover over a structure to see its proximity neighbourhood; click to open it.</p>
+    <div id="homecell"></div>
     <h2>About this atlas</h2>
     <div class="card"><p class="small">Published proximity-labelling studies differ in search software, statistics, controls and thresholds, so their
       results cannot be compared directly. We collected human label-free datasets from ProteomeXchange, processed every raw file with the same
@@ -148,6 +151,7 @@ function home() {
       confidence), including proteins with no UniProt localisation. Disease genes concentrate in specific neighbourhoods, and the map ranks
       candidate disease genes from their proximity neighbours.</p></div>`;
   attachSearch($("#heroSearch"), $("#heroSuggest"));
+  getJSON("data/neighbourhoods.json").then((nb) => { const el = $("#homecell"); if (nb && el) { el.innerHTML = cellFigure(nb, { list: true }); attachCell(el, nb); } });
 }
 
 async function genePage(gene) {
@@ -254,7 +258,8 @@ function protTab(p) {
       ${m.neighbour_function ? `<dt>Neighbours suggest</dt><dd class="small">${esc(m.neighbour_function)}</dd>` : ""}
       ${m.poorly || m.no_uniprot_location ? `<dt>Note</dt><dd class="small">${m.poorly ? "poorly characterised" : ""}${m.poorly && m.no_uniprot_location ? "; " : ""}${m.no_uniprot_location ? "no UniProt subcellular location" : ""}</dd>` : ""}
       </dl>` : `<p class="muted small">Bound by fewer than two baits, so not placed on the proximity map.</p>`}
-      <canvas id="mini" style="width:100%;height:220px;margin-top:10px;${m ? "" : "display:none"}"></canvas></div>
+      <canvas id="mini" style="width:100%;height:220px;margin-top:10px;${m ? "" : "display:none"}"></canvas>
+      ${m && m.component && m.component !== 6 && m.component !== 19 ? `<div id="protcell" style="margin-top:10px"></div>` : ""}</div>
     <div class="card"><h3>Reference annotations</h3><dl class="kv">
       <dt>UniProt</dt><dd class="small">${esc((m && m.uniprot) || p.location || "–")}</dd>
       <dt>Human Protein Atlas</dt><dd class="small">${esc((m && m.hpa) || "–")} ${m && m.hpa_reliability ? `<span class="muted">(${esc(m.hpa_reliability)})</span>` : ""}</dd>
@@ -276,6 +281,11 @@ function protTab(p) {
       { key: "sup", label: "Published support", sortv: (r) => r[6], text: (r) => r[6], html: (r) => esc((r[6] || "").replace(/^\d /, "")) }]
   });
   if (m) getJSON("data/map.json").then((mp) => mp && drawMap($("#mini"), mp, { highlight: p.gene, mini: true }));
+  if ($("#protcell")) getJSON("data/neighbourhoods.json").then((nb) => {
+    if (!nb) return;
+    $("#protcell").innerHTML = cellFigure(nb, { compact: true, selected: String(m.component) });
+    attachCell($("#protcell"), nb);
+  });
 }
 
 /* ---------- proximity map (canvas) ---------- */
@@ -375,7 +385,9 @@ async function neighbourhoodsPage(query) {
   const focus = +query.get("c");
   $("#app").innerHTML = `<h1 style="margin-top:22px">Proximity neighbourhoods</h1>
     <p class="muted">Twenty NMF components of the proximity map. Compartment: most enriched UniProt class; disease: gene sets significantly enriched (BH ≤ 0.05, robust to bait-count and annotation bias).</p>
+    <div id="cellbox" style="margin:14px 0 22px">${cellFigure(nb, { list: true, selected: focus || "" })}</div>
     <div class="grid2" id="nbgrid"></div>`;
+  attachCell($("#cellbox"), nb);
   $("#nbgrid").innerHTML = nb.map((c) => `<div class="card" id="nb${c.component}" style="${focus === c.component ? "outline:2px solid var(--brand)" : ""}">
     <h3>${c.component} · ${esc(c.name)}</h3><div>${compChip(c.compartment)}<span class="badge">${num(c.n)} proteins</span>
     <a class="badge" href="#/map?hl=${encodeURIComponent((c.top_proteins || "").split(", ").slice(0, 6).join(","))}">show on map</a></div>
