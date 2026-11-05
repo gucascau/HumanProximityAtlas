@@ -1,0 +1,1 @@
+{"gene":"CUX2","name":"Homeobox protein cut-like 2 (Homeobox protein cux-2)","uniprot":"O14529","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["OCIAD1","OCIAD1|PXD018196|OCIAD1_C_P103_vs_controls",4.69,0.001369,0.082,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

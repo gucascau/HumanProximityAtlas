@@ -1,0 +1,1 @@
+{"gene":"SELENOM","name":"Selenoprotein M (SelM)","uniprot":"Q8WWX9","function":"Other/unclassified","location":"Endoplasmic reticulum","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NPM1","NPM1|PXD015531|NPM1_BioID_vs_controls",1.88,0.006986,0.963,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

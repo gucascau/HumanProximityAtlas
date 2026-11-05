@@ -1,0 +1,1 @@
+{"gene":"IFI35","name":"Interferon-induced 35 kDa protein (IFP 35) (Ifi-35)","uniprot":"P80217","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["OPTN","OPTN|PXD019386|OPTNB_vs_controls",4.26,0.038072,0.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

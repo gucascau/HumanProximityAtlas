@@ -1,0 +1,1 @@
+{"gene":"ZNF567","name":"Zinc finger protein 567","uniprot":"Q8N184","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CBX3","CBX3|PXD015530|CBX3_BioID_vs_controls",3.41,0.002462,0.792,"Standard","1 Known physical (non-PL)"]],"disease_sets":[],"candidate":[]}

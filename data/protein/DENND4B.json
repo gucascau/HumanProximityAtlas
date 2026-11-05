@@ -1,0 +1,1 @@
+{"gene":"DENND4B","name":"DENN domain-containing protein 4B","uniprot":"O75064","function":"GTPase/regulator","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["ST7","ST7|PXD007200|ST7_vs_controls",2.96,0.035122,0.78,null,"3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

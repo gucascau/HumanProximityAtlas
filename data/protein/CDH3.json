@@ -1,0 +1,1 @@
+{"gene":"CDH3","name":"Cadherin-3 (Placental cadherin) (P-cadherin)","uniprot":"P22223","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["DCTN1","DCTN1|PXD015531|DCTN1_BioID_vs_controls",5.71,1.4e-05,0.991,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

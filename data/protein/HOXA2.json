@@ -1,0 +1,1 @@
+{"gene":"HOXA2","name":"Homeobox protein Hox-A2 (Homeobox protein Hox-1K)","uniprot":"O43364","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["HOXB2","HOXB2|PXD026006|HOXB2_vs_controls",5.86,0.000274,0.994,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"ZNF532","name":"Zinc finger protein 532","uniprot":"Q9HCE3","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_BJ5_vs_controls",1.92,0.032356,0.629,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

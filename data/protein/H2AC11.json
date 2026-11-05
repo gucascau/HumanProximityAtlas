@@ -1,0 +1,1 @@
+{"gene":"H2AC11","name":"Histone H2A type 1 (H2A.1) (Histone H2A/ptl)","uniprot":"P0C0S8","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["WWC1","WWC1|PXD006608|WWC1_mut1_vs_controls",2.47,0.020402,0.061,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"CCDC122","name":"Coiled-coil domain-containing protein 122","uniprot":"Q5T0U0","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NUP155","NUP155|PXD015531|NUP155_Nterm_BioID_vs_controls",2.97,0.000633,0.759,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

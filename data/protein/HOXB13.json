@@ -1,0 +1,1 @@
+{"gene":"HOXB13","name":"Homeobox protein Hox-B13","uniprot":"Q92826","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PAX3-FOXO1","PAX3-FOXO1|PXD022187|PAX3_FOXO1_NBirA_vs_controls",3.3,0.00777,0.625,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

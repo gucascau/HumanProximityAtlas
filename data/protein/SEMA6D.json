@@ -1,0 +1,1 @@
+{"gene":"SEMA6D","name":"Semaphorin-6D","uniprot":"Q8NFY4","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",4.09,0.0,1.0,"High","5 Novel"]],"disease_sets":[],"candidate":[]}

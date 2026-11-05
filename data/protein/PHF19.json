@@ -1,0 +1,1 @@
+{"gene":"PHF19","name":"PHD finger protein 19 (Polycomb-like protein 3) (hPCL3)","uniprot":"Q5T6S3","function":"Chromatin regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.26,0.002684,0.994,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

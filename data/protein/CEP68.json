@@ -1,0 +1,1 @@
+{"gene":"CEP68","name":"Centrosomal protein of 68 kDa (Cep68)","uniprot":"Q76N32","function":"Cytoskeleton/motor","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",0.67,0.034647,0.968,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

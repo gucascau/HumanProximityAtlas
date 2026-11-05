@@ -1,0 +1,1 @@
+{"gene":"BORCS7","name":"BLOC-1-related complex subunit 7 (Diaskedin)","uniprot":"Q96B45","function":"Other/unclassified","location":"Endosome/lysosome","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CYP26B1","CYP26B1|PXD041830|CYP26B1_vs_controls",3.56,0.028758,0.196,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

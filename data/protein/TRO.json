@@ -1,0 +1,1 @@
+{"gene":"TRO","name":"Trophinin (MAGE-D3 antigen)","uniprot":"Q12816","function":"Adhesion/junction","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FOXG1","FOXG1|PXD038811|FOXG1_HEK_vs_controls",3.29,0.024039,0.117,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

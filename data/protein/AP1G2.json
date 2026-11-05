@@ -1,0 +1,1 @@
+{"gene":"AP1G2","name":"AP-1 complex subunit gamma-like 2 (Gamma2-adaptin) (G2ad)","uniprot":"O75843","function":"Membrane trafficking","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CCP110","CCP110|PXD028229|CP110_biot_B_vs_controls",3.56,0.000292,0.994,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

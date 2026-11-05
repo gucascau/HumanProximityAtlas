@@ -1,0 +1,1 @@
+{"gene":"CCDC32","name":"Coiled-coil domain-containing protein 32","uniprot":"Q9BV29","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FXR1","FXR1|PXD017330|NS_APEX_FXR1_vs_controls",1.61,0.028667,0.017,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

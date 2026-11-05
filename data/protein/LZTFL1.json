@@ -1,0 +1,1 @@
+{"gene":"LZTFL1","name":"Leucine zipper transcription factor-like protein 1","uniprot":"Q9NQ48","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NUTM2F","NUTM2F|PXD026006|NUTM2F_vs_controls",1.99,0.024007,0.718,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

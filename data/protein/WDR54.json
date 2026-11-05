@@ -1,0 +1,1 @@
+{"gene":"WDR54","name":"WD repeat-containing protein 54","uniprot":"Q9H977","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["POLR2I","POLR2I|PXD050608|FB_RPB9_B_KM_vs_controls",1.8,0.00226,0.838,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

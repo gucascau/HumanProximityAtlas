@@ -1,0 +1,1 @@
+{"gene":"ZNF721","name":"Zinc finger protein 721","uniprot":"Q8TF20","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TARDBP","TARDBP|PXD048043|TARDBP_APEX2_Std_vs_controls",2.22,0.015038,0.993,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

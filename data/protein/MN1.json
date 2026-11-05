@@ -1,0 +1,1 @@
+{"gene":"MN1","name":"Transcriptional activator MN1 (Probable tumor suppressor protein MN1)","uniprot":"Q10571","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["IL1A","IL1A|PXD053438|IL1a_vs_controls",1.43,0.021875,1.0,"High","5 Novel"]],"disease_sets":[],"candidate":[]}

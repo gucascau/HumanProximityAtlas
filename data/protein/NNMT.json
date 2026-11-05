@@ -1,0 +1,1 @@
+{"gene":"NNMT","name":"Nicotinamide N-methyltransferase (EC 2.1.1.1)","uniprot":"P40261","function":"Metabolic enzyme","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SOX10","SOX10|PXD067868|Nterm_SOX10_miniTurbo_2hBiotin_vs_controls",1.72,0.02084,0.296,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

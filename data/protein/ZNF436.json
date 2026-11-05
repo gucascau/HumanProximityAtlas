@@ -1,0 +1,1 @@
+{"gene":"ZNF436","name":"Zinc finger protein 436","uniprot":"Q9C0F3","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FOXL1","FOXL1|PXD038811|FOXL1_HEK_vs_controls",1.62,0.006753,0.329,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

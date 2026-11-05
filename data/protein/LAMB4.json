@@ -1,0 +1,1 @@
+{"gene":"LAMB4","name":"Laminin subunit beta-4 (Laminin beta-1-related protein)","uniprot":"A4D0S4","function":"Adhesion/junction","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["ERGIC2","ERGIC2|PXD015530|ERGIC2_BioID_vs_controls",2.75,0.002515,0.322,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

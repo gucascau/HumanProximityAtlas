@@ -1,0 +1,1 @@
+{"gene":"NBEAL2","name":"Neurobeachin-like protein 2","uniprot":"Q6ZNJ1","function":"Other/unclassified","location":"Endoplasmic reticulum","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAB11A","RAB11A|PXD015531|RAB11A_BioID_vs_controls",3.41,0.001099,1.0,"High","3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

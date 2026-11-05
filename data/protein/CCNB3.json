@@ -1,0 +1,1 @@
+{"gene":"CCNB3","name":"G2/mitotic-specific cyclin-B3","uniprot":"Q8WWL7","function":"Cell cycle/division","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TERF2IP","TERF2IP|PXD028451|TERF2IP_CBF_SLF2_KO_vs_controls",2.04,0.006505,0.213,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

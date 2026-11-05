@@ -1,0 +1,1 @@
+{"gene":"ANKRD18A","name":"Ankyrin repeat domain-containing protein 18A","uniprot":"Q8IVF6","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["MCU","MCU|PXD018196|MCU_P129_vs_controls",3.39,0.001867,0.627,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

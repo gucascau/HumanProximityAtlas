@@ -1,0 +1,1 @@
+{"gene":"ZNF319","name":"Zinc finger protein 319","uniprot":"Q9P2F9","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["INCENP","INCENP|PXD030963|INCENP_vs_controls",1.23,0.016118,0.07,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

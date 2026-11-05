@@ -1,0 +1,1 @@
+{"gene":"STMN2","name":"Stathmin-2 (Superior cervical ganglion-10 protein) (Protein SCG10)","uniprot":"Q93045","function":"Other/unclassified","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",1.41,0.000194,0.67,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"SPRYD3","name":"SPRY domain-containing protein 3","uniprot":"Q8NCJ5","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",2.17,0.003064,0.993,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

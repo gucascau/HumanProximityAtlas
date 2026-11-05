@@ -1,0 +1,1 @@
+{"gene":"PCDHGA11","name":"Protocadherin gamma-A11 (PCDH-gamma-A11)","uniprot":"Q9Y5H2","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CYP26B1","CYP26B1|PXD041830|CYP26B1_vs_controls",2.21,0.031798,0.18,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

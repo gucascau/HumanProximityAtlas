@@ -1,0 +1,1 @@
+{"gene":"PODN","name":"Podocan","uniprot":"Q7Z5L7","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GPATCH4","GPATCH4|PXD070586|GPATCH4_miniTurbo_vs_controls",0.78,0.037186,0.924,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

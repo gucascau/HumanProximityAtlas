@@ -1,0 +1,1 @@
+{"gene":"ITGB6","name":"Integrin beta-6","uniprot":"P18564","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PGCKA1","PGCKA1|PXD039042|viral_c4orf19_3xFl_mTb_vs_controls",1.16,0.04577,0.847,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

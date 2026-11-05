@@ -1,0 +1,1 @@
+{"gene":"TRIM14","name":"Tripartite motif-containing protein 14","uniprot":"Q14142","function":"Transcription regulator","location":"Mitochondrion","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP2","PARP2|PXD052745|PARP2_vs_controls",4.18,0.024107,0.236,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

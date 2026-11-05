@@ -1,0 +1,1 @@
+{"gene":"PCDHAC2","name":"Protocadherin alpha-C2 (PCDH-alpha-C2)","uniprot":"Q9Y5I4","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",3.03,0.035362,0.609,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

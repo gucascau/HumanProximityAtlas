@@ -1,0 +1,1 @@
+{"gene":"GTF3A","name":"Transcription factor IIIA (TFIIIA)","uniprot":"Q92664","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["POLR2I","POLR2I|PXD050608|FB_RPB9_B_KM_vs_controls",1.15,0.045501,0.472,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

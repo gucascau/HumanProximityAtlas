@@ -1,0 +1,1 @@
+{"gene":"MPV17L2","name":"Mpv17-like protein 2","uniprot":"Q567V2","function":"Other/unclassified","location":"Mitochondrion","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RPL3","RPL3|PXD070586|RPL3_miniTurbo_vs_controls",0.48,0.005551,0.951,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

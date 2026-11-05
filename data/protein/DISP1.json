@@ -1,0 +1,1 @@
+{"gene":"DISP1","name":"Protein dispatched homolog 1","uniprot":"Q96F81","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["OCLN","OCLN|PXD015531|OCLN_BioID_vs_controls",2.74,0.002177,0.971,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"B9D2","name":"B9 domain-containing protein 2 (MKS1-related protein 2)","uniprot":"Q9BPU9","function":"Cytoskeleton/motor","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CFTR","CFTR|PXD035184|TurboID_CFTR_n_4_vs_controls",2.45,0.0236,0.17,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

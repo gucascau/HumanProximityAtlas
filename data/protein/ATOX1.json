@@ -1,0 +1,1 @@
+{"gene":"ATOX1","name":"Copper transport protein ATOX1 (Metal transport protein ATX1)","uniprot":"O00244","function":"Chaperone/protease","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FMR1","FMR1|PXD017330|S_APEX_FMR1_vs_controls",1.64,0.016646,0.004,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

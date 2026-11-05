@@ -1,0 +1,1 @@
+{"gene":"DENND2A","name":"DENN domain-containing protein 2A","uniprot":"Q9ULE3","function":"GTPase/regulator","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NEDD4L","NEDD4L|PXD061451|FmT_HyperOsmo_A_vs_controls",2.51,0.040922,0.19,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

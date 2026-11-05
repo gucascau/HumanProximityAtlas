@@ -1,0 +1,1 @@
+{"gene":"ZNF616","name":"Zinc finger protein 616","uniprot":"Q08AN1","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CBX3","CBX3|PXD015530|CBX3_BioID_vs_controls",1.57,0.022984,0.503,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

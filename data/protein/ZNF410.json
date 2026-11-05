@@ -1,0 +1,1 @@
+{"gene":"ZNF410","name":"Zinc finger protein 410 (Another partner for ARF 1)","uniprot":"Q86VK4","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.57,0.001646,0.995,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

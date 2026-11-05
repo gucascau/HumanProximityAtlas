@@ -1,0 +1,1 @@
+{"gene":"ZNF79","name":"Zinc finger protein 79 (ZNFpT7)","uniprot":"Q15937","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",2.54,0.004897,0.99,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

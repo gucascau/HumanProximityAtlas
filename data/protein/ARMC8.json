@@ -1,0 +1,1 @@
+{"gene":"ARMC8","name":"Armadillo repeat-containing protein 8","uniprot":"Q8IUR7","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAF1","RAF1|PXD053389|RAF1_vs_controls",1.52,0.031633,0.166,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

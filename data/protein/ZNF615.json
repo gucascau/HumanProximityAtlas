@@ -1,0 +1,1 @@
+{"gene":"ZNF615","name":"Zinc finger protein 615","uniprot":"Q8N8J6","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CBX3","CBX3|PXD015530|CBX3_BioID_vs_controls",1.66,0.017003,0.554,"Standard","3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

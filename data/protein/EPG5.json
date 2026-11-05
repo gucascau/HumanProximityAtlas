@@ -1,0 +1,1 @@
+{"gene":"EPG5","name":"Ectopic P granules protein 5 homolog","uniprot":"Q9HCE0","function":"Membrane trafficking","location":"Endosome/lysosome","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CPSF1","CPSF1|PXD007201|CPSF1_Ntr_BirA_FLAG_JY_Vel_vs_controls",3.14,0.003154,0.157,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

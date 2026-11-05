@@ -1,0 +1,1 @@
+{"gene":"PCDH10","name":"Protocadherin-10","uniprot":"Q9P2E7","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",2.94,0.0,1.0,"High","5 Novel"]],"disease_sets":[],"candidate":[]}

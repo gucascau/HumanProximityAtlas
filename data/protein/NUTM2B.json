@@ -1,0 +1,1 @@
+{"gene":"NUTM2B","name":"NUT family member 2B","uniprot":"A6NNL0","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RPL4","RPL4|PXD070586|RPL4_N266_miniTurbo_vs_controls",2.49,0.013263,0.93,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

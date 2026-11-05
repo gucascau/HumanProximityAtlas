@@ -1,0 +1,1 @@
+{"gene":"FSTL1","name":"Follistatin-related protein 1 (Follistatin-like protein 1)","uniprot":"Q12841","function":"Other/unclassified","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PDIA4","PDIA4|PXD015530|PDIA4_BioID_vs_controls",1.58,0.021829,0.444,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"PCDHGB5","name":"Protocadherin gamma-B5 (PCDH-gamma-B5)","uniprot":"Q9Y5G0","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CYP26B1","CYP26B1|PXD041830|CYP26B1_vs_controls",2.54,0.021722,0.261,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"AJM1","name":"Apical junction component 1 homolog","uniprot":"C9J069","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FMR1","FMR1|PXD017330|NS_APEX_FMR1_vs_controls",1.8,0.012576,0.075,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"IQCE","name":"IQ domain-containing protein E","uniprot":"Q6IPM2","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FXR1","FXR1|PXD017330|S_APEX_FXR1_vs_controls",2.28,0.026813,0.323,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

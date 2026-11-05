@@ -1,0 +1,1 @@
+{"gene":"BEGAIN","name":"Brain-enriched guanylate kinase-associated protein","uniprot":"Q9BUH8","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CLTA","CLTA|PXD051393|CLCA_vs_controls",2.46,0.00916,0.999,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

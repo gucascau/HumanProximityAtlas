@@ -1,0 +1,1 @@
+{"gene":"NRSN2","name":"Neurensin-2","uniprot":"Q9GZP1","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PTPRE","PTPRE|PXD004526|ZL_PTPRE_SingleLoad_P103_vs_controls",2.58,0.013044,0.038,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

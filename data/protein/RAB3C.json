@@ -1,0 +1,1 @@
+{"gene":"RAB3C","name":"Ras-related protein Rab-3C (EC 3.6.5.2)","uniprot":"Q96E17","function":"GTPase/regulator","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",4.75,0.0,1.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

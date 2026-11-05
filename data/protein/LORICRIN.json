@@ -1,0 +1,1 @@
+{"gene":"LORICRIN","name":"Loricrin","uniprot":"P23490","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["MAP4K4","MAP4K4|PXD031870|N_BioID2_M4K4_vs_controls",1.94,0.041147,0.007,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

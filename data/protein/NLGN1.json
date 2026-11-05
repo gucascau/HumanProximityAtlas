@@ -1,0 +1,1 @@
+{"gene":"NLGN1","name":"Neuroligin-1","uniprot":"Q8N2Q7","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GJD3","GJD3|PXD015531|GJD3_BioID_vs_controls",2.16,0.012572,0.953,"Standard","3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

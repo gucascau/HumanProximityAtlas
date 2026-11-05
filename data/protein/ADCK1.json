@@ -1,0 +1,1 @@
+{"gene":"ADCK1","name":"AarF domain-containing protein kinase 1 (EC 2.7.-.-)","uniprot":"Q86TW2","function":"Kinase","location":"Mitochondrion","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RPL4","RPL4|PXD070586|RPL4_N266_miniTurbo_vs_controls",0.89,0.022728,0.899,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

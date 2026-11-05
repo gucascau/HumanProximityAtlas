@@ -1,0 +1,1 @@
+{"gene":"TNS4","name":"Tensin-4 (C-terminal tensin-like protein)","uniprot":"Q8IZW8","function":"Cytoskeleton/motor","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["MCL1","MCL1|PXD083239|MCL1_c007_vs_controls",0.75,0.014462,0.004,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

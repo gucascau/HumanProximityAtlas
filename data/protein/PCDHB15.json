@@ -1,0 +1,1 @@
+{"gene":"PCDHB15","name":"Protocadherin beta-15 (PCDH-beta-15)","uniprot":"Q9Y5E8","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",2.26,2e-06,0.999,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

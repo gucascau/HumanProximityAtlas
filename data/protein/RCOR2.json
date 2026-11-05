@@ -1,0 +1,1 @@
+{"gene":"RCOR2","name":"REST corepressor 2","uniprot":"Q8IZ40","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["KDM1A","KDM1A|PXD015531|KDM1A_BioID_vs_controls",3.08,0.000263,0.881,"Standard","1 Known physical (non-PL)"]],"disease_sets":[],"candidate":[]}

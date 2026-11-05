@@ -1,0 +1,1 @@
+{"gene":"ZNF765","name":"Zinc finger protein 765","uniprot":"Q7L2R6","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CBX3","CBX3|PXD015530|CBX3_BioID_vs_controls",1.72,0.023274,0.501,"Standard","1 Known physical (non-PL)"]],"disease_sets":[],"candidate":[]}

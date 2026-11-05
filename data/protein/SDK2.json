@@ -1,0 +1,1 @@
+{"gene":"SDK2","name":"Protein sidekick-2","uniprot":"Q58EX2","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CAV1","CAV1|PXD015530|CAV1_BioID_vs_controls",1.76,0.018075,0.953,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

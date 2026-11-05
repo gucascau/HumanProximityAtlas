@@ -1,0 +1,1 @@
+{"gene":"SPTB","name":"Spectrin beta chain, erythrocytic (Beta-I spectrin)","uniprot":"P11277","function":"Cytoskeleton/motor","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP9","PARP9|PXD052745|PARP9_vs_controls",2.64,0.031045,0.631,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

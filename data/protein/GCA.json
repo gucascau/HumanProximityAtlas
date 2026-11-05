@@ -1,0 +1,1 @@
+{"gene":"GCA","name":"Grancalcin","uniprot":"P28676","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SP100","SP100|PXD026758|SP100_6600B_P131_vs_controls",1.88,0.025287,0.73,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

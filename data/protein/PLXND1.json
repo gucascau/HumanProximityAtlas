@@ -1,0 +1,1 @@
+{"gene":"PLXND1","name":"Plexin-D1","uniprot":"Q9Y4D7","function":"Receptor/signaling","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GPATCH4","GPATCH4|PXD070586|GPATCH4_miniTurbo_vs_controls",1.85,0.023054,0.952,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

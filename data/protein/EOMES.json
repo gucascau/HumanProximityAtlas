@@ -1,0 +1,1 @@
+{"gene":"EOMES","name":"Eomesodermin homolog (T-box brain protein 2) (T-brain-2) (TBR-2)","uniprot":"O95936","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NDC80","NDC80|PXD038811|TID3_vs_controls",1.8,0.022148,0.482,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

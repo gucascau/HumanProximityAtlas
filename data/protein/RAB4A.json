@@ -1,0 +1,1 @@
+{"gene":"RAB4A","name":"Ras-related protein Rab-4A (EC 3.6.5.2)","uniprot":"P20338","function":"GTPase/regulator","location":"Endosome/lysosome","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FBXW11","FBXW11|PXD001667|FlagBirA_FBXW11_BioID_MG132_vs_controls",6.87,8e-06,0.964,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

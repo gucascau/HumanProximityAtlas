@@ -1,0 +1,1 @@
+{"gene":"PAX3","name":"Paired box protein Pax-3 (HuP2)","uniprot":"P23760","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PAX3-FOXO1","PAX3-FOXO1|PXD022187|PAX3_FOXO1_NBirA_vs_controls",12.12,6.3e-05,1.0,"High","5 Novel"]],"disease_sets":[],"candidate":[]}

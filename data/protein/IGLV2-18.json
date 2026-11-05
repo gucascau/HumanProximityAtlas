@@ -1,0 +1,1 @@
+{"gene":"IGLV2-18","name":"Immunoglobulin lambda variable 2-18","uniprot":"A0A075B6J9","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CENPC","CENPC|PXD030963|CENPC_vs_controls",2.49,0.027526,0.032,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

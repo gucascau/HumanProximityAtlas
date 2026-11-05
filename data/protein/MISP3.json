@@ -1,0 +1,1 @@
+{"gene":"MISP3","name":"Uncharacterized protein MISP3 (MISP family member 3)","uniprot":"Q96FF7","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FOXG1","FOXG1|PXD038811|FOXG1_HEK_vs_controls",3.55,0.012716,0.289,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

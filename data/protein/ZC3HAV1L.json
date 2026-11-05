@@ -1,0 +1,1 @@
+{"gene":"ZC3HAV1L","name":"Zinc finger CCCH-type antiviral protein 1-like","uniprot":"Q96H79","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAF1","RAF1|PXD053389|RAF1_vs_controls",1.24,0.044493,0.021,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

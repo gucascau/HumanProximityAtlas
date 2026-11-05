@@ -1,0 +1,1 @@
+{"gene":"ATRN","name":"Attractin (DPPT-L) (Mahogany homolog)","uniprot":"O75882","function":"Ubiquitin system","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SEC61B","SEC61B|PXD015531|SEC61B_Cterm_BioID_vs_controls",2.39,0.003474,0.987,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

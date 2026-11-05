@@ -1,0 +1,1 @@
+{"gene":"SYT1","name":"Synaptotagmin-1 (Synaptotagmin I) (SytI) (p65)","uniprot":"P21579","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",3.19,0.0,1.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

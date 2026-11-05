@@ -1,0 +1,1 @@
+{"gene":"ZNF572","name":"Zinc finger protein 572","uniprot":"Q7Z3I7","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.85,0.032307,0.97,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

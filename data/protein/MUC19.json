@@ -1,0 +1,1 @@
+{"gene":"MUC19","name":"Mucin-19 (MUC-19)","uniprot":"Q7Z5P9","function":"Other/unclassified","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SENP5","SENP5|PXD001667|Control_BioID_FlagBirA_SENP5_1_MG132_vs_controls",5.57,1.1e-05,0.993,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

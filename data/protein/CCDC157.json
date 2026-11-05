@@ -1,0 +1,1 @@
+{"gene":"CCDC157","name":"Coiled-coil domain-containing protein 157","uniprot":"Q569K6","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CFTR","CFTR|PXD035184|TurboID_CFTR_n_4_vs_controls",2.56,0.004806,0.201,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

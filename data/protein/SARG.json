@@ -1,0 +1,1 @@
+{"gene":"SARG","name":"Specifically androgen-regulated gene protein","uniprot":"Q9BW04","function":"Receptor/signaling","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TP53","TP53|PXD027734|markusP53_p53_STV_vs_controls",0.78,0.036441,0.956,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

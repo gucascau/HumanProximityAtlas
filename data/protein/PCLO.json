@@ -1,0 +1,1 @@
+{"gene":"PCLO","name":"Protein piccolo (Aczonin)","uniprot":"Q9Y6V0","function":"Transcription regulator","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CTBP1","CTBP1|PXD026006|CTBP1_iso2_vs_controls",3.23,0.014768,0.957,"High","1 Known physical (non-PL)"]],"disease_sets":[],"candidate":[]}

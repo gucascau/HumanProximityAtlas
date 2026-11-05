@@ -1,0 +1,1 @@
+{"gene":"SOX6","name":"Transcription factor SOX-6","uniprot":"P35712","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SOX10","SOX10|PXD067868|Nterm_SOX10_miniTurbo_2hBiotin_vs_controls",2.42,0.003811,0.61,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

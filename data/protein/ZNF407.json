@@ -1,0 +1,1 @@
+{"gene":"ZNF407","name":"Zinc finger protein 407","uniprot":"Q9C0G0","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["ELAVL1","ELAVL1|PXD007200|ELAV1_NtrBF_JY_Elt_vs_controls",1.84,0.009163,0.638,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"ZFP37","name":"Zinc finger protein 37 homolog (Zfp-37)","uniprot":"Q9Y6Q3","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FMR1","FMR1|PXD017330|S_APEX_FMR1_vs_controls",2.06,0.044961,0.016,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

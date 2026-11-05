@@ -1,0 +1,1 @@
+{"gene":"ZNF579","name":"Zinc finger protein 579","uniprot":"Q8NAF0","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GPATCH4","GPATCH4|PXD070586|GPATCH4_miniTurbo_vs_controls",1.01,0.019259,0.956,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

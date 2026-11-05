@@ -1,0 +1,1 @@
+{"gene":"THAP5","name":"THAP domain-containing protein 5","uniprot":"Q7Z6K1","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.72,0.037524,0.967,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

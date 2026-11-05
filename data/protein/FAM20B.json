@@ -1,0 +1,1 @@
+{"gene":"FAM20B","name":"Glycosaminoglycan xylosylkinase (EC 2.7.1.-) (Xylose kinase)","uniprot":"O75063","function":"Kinase","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP9","PARP9|PXD052745|PARP9_vs_controls",3.63,0.009306,0.954,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"ZBTB38","name":"Zinc finger and BTB domain-containing protein 38","uniprot":"Q8NAP3","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",3.22,0.000198,0.999,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

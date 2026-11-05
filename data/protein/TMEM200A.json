@@ -1,0 +1,1 @@
+{"gene":"TMEM200A","name":"Transmembrane protein 200A","uniprot":"Q86VY9","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",4.01,0.0,1.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

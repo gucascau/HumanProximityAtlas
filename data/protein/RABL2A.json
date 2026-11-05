@@ -1,0 +1,1 @@
+{"gene":"RABL2A","name":"Rab-like protein 2A (EC 3.6.5.2)","uniprot":"Q9UBK7","function":"GTPase/regulator","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAF1","RAF1|PXD053389|RAF1_vs_controls",0.48,0.028735,0.142,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

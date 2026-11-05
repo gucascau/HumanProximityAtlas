@@ -1,0 +1,1 @@
+{"gene":"SPRY2","name":"Protein sprouty homolog 2 (Spry-2)","uniprot":"O43597","function":"Cytoskeleton/motor","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAB5A","RAB5A|PXD015530|RAB5A_BioID_vs_controls",1.67,0.014725,0.439,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

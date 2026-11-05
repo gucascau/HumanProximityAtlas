@@ -1,0 +1,1 @@
+{"gene":"KLC3","name":"Kinesin light chain 3 (KLC2-like) (kinesin light chain 2)","uniprot":"Q6P597","function":"Cytoskeleton/motor","location":"Mitochondrion","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TLK2","TLK2|PXD019450|TLK2_55_yB_T_vs_controls",2.03,0.003522,0.086,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

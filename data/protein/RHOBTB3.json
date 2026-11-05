@@ -1,0 +1,1 @@
+{"gene":"RHOBTB3","name":"Rho-related BTB domain-containing protein 3 (EC 3.6.1.-)","uniprot":"O94955","function":"Transporter/channel","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RHOQ","RHOQ|PXD015918|RHOQ_G18V_vs_controls",2.99,0.041895,0.056,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

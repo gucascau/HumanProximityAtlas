@@ -1,0 +1,1 @@
+{"gene":"TCTN3","name":"Tectonic-3","uniprot":"Q6NUS6","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SEC61B","SEC61B|PXD015531|SEC61B_Cterm_BioID_vs_controls",2.24,0.005095,0.987,"Standard","3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

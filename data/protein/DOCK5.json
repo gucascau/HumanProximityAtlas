@@ -1,0 +1,1 @@
+{"gene":"DOCK5","name":"Dedicator of cytokinesis protein 5","uniprot":"Q9H7D0","function":"GTPase/regulator","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_FlpHeLa_vs_controls",6.13,4.1e-05,0.99,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

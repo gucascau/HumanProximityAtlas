@@ -1,0 +1,1 @@
+{"gene":"SPTBN5","name":"Spectrin beta chain, non-erythrocytic 5 (Beta-V spectrin)","uniprot":"Q9NRC6","function":"Cytoskeleton/motor","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CDC14A","CDC14A|PXD004526|CDC14A_P103_vs_controls",2.72,0.036321,0.085,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

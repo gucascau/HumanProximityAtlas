@@ -1,0 +1,1 @@
+{"gene":"PFN3","name":"Profilin-3 (Profilin III)","uniprot":"P60673","function":"Cytoskeleton/motor","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GSK3A","GSK3A|PXD038864|KCormierAPMS_GSK3A_vs_controls",2.78,0.004213,0.378,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

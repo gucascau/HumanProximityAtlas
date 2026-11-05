@@ -1,0 +1,1 @@
+{"gene":"LZTR1","name":"Leucine-zipper-like transcriptional regulator 1 (LZTR-1)","uniprot":"Q8N653","function":"Ubiquitin system","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.09,0.046617,0.962,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

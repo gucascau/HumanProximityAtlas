@@ -1,0 +1,1 @@
+{"gene":"NRM","name":"Nurim (Nuclear envelope membrane protein) (Nuclear rim protein)","uniprot":"Q8IXM6","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RPL3","RPL3|PXD070586|RPL3_miniTurbo_vs_controls",0.43,0.038262,0.811,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"BLMH","name":"Bleomycin hydrolase (BH) (BLM hydrolase) (BMH) (EC 3.4.22.40)","uniprot":"Q13867","function":"Chaperone/protease","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CLTA","CLTA|PXD051393|CLCA_vs_controls",2.84,0.010956,0.999,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"NUTM2F","name":"NUT family member 2F","uniprot":"A1L443","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SUZ12","SUZ12|PXD026006|SUZ12_vs_controls",5.99,2e-06,0.998,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

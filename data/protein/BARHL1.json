@@ -1,0 +1,1 @@
+{"gene":"BARHL1","name":"BarH-like 1 homeobox protein","uniprot":"Q9BZE3","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_BJ5_vs_controls",2.15,0.046918,0.559,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

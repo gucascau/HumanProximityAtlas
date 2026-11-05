@@ -1,0 +1,1 @@
+{"gene":"POP5","name":"Ribonuclease P/MRP protein subunit POP5 (hPop5)","uniprot":"Q969H6","function":"RNA processing","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["GPATCH4","GPATCH4|PXD070586|GPATCH4_miniTurbo_vs_controls",1.33,0.008132,0.969,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

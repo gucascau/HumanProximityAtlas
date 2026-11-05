@@ -1,0 +1,1 @@
+{"gene":"RFPL2","name":"Ret finger protein-like 2 (RING finger protein 79)","uniprot":"O75678","function":"Transcription regulator","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TNRC6B","TNRC6B|PXD007200|TNRC6B_vs_controls",5.56,0.002994,0.472,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

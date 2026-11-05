@@ -1,0 +1,1 @@
+{"gene":"ELOF1","name":"Transcription elongation factor 1 homolog","uniprot":"P60002","function":"DNA replication/repair","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TP53","TP53|PXD027734|markusP53_p53_STV_vs_controls",1.46,0.020538,0.439,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

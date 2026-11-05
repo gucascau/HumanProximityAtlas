@@ -1,0 +1,1 @@
+{"gene":"MEIS2","name":"Homeobox protein Meis2 (Meis1-related protein 1)","uniprot":"O14770","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SRSF7","SRSF7|PXD026758|SRSF7_H2O2_IDA_6600A_P131_vs_controls",1.69,0.021778,0.683,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

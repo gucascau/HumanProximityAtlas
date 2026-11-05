@@ -1,0 +1,1 @@
+{"gene":"ECM1","name":"Extracellular matrix protein 1 (Secretory component p85)","uniprot":"Q16610","function":"Other/unclassified","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NCBP2","NCBP2|PXD007201|NCBP2_vs_controls",3.11,0.006674,0.019,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

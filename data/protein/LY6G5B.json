@@ -1,0 +1,1 @@
+{"gene":"LY6G5B","name":"Lymphocyte antigen 6 complex locus protein G5b","uniprot":"Q8NDX9","function":"Other/unclassified","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["ELAVL1","ELAVL1|PXD007200|ELAV1_NtrBF_JY_Elt_vs_controls",2.78,0.006833,0.681,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"ADAT3","name":"tRNA-specific adenosine-34 deaminase regulatory subunit ADAT3","uniprot":"Q96EY9","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FOXL1","FOXL1|PXD038811|FOXL1_HEK_vs_controls",0.65,0.025144,0.146,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

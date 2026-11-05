@@ -1,0 +1,1 @@
+{"gene":"FOXL2","name":"Forkhead box protein L2","uniprot":"P58012","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_FlpHeLa_vs_controls",1.55,0.032134,0.57,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

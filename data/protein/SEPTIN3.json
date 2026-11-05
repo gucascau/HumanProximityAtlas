@@ -1,0 +1,1 @@
+{"gene":"SEPTIN3","name":"Neuronal-specific septin-3","uniprot":"Q9UH03","function":"GTPase/regulator","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RAF1","RAF1|PXD053389|RAF1_vs_controls",1.81,0.015802,0.057,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

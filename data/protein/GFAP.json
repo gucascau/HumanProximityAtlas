@@ -1,0 +1,1 @@
+{"gene":"GFAP","name":"Glial fibrillary acidic protein (GFAP)","uniprot":"P14136","function":"Cytoskeleton/motor","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["DDX23","DDX23|PXD015531|DDX23_BioID_vs_controls",2.61,0.003868,0.061,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

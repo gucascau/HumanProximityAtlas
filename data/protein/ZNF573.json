@@ -1,0 +1,1 @@
+{"gene":"ZNF573","name":"Zinc finger protein 573","uniprot":"Q86YE8","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CCDC14","CCDC14|PXD011637|FlagBirA_CCDC14_B_vs_controls",2.26,0.019005,0.636,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}
