@@ -137,7 +137,16 @@ function home() {
       <a class="card" href="#/neighbourhoods"><h3>Neighbourhoods →</h3><p class="muted">Twenty proximity neighbourhoods with marker proteins, baits and disease-gene enrichment.</p></a>
       <a class="card" href="#/studies"><h3>Studies →</h3><p class="muted">The ${num(s.projects)} reanalysed projects with technology, cell line and reliability tier.</p></a>
       <a class="card" href="#/toolkit"><h3>ProxLabToolkit →</h3><p class="muted">The consensus statistical framework used to score every comparison. Open source.</p></a>
-    </div>`;
+    </div>
+    <h2>About this atlas</h2>
+    <div class="card"><p class="small">Published proximity-labelling studies differ in search software, statistics, controls and thresholds, so their
+      results cannot be compared directly. We collected human label-free datasets from ProteomeXchange, processed every raw file with the same
+      FragPipe workflow, matched each bait to appropriate controls and scored all comparisons with ProxLabToolkit, which combines six
+      differential-abundance methods with a spectral-count model into one consensus result.</p>
+      <p class="small">Because each protein is captured by many baits, the collection also forms a proximity map: non-negative matrix factorisation
+      resolves 20 subcellular neighbourhoods and assigns ${num(s.assigned)} proteins to a compartment (${num(s.confident)} with high or medium
+      confidence), including proteins with no UniProt localisation. Disease genes concentrate in specific neighbourhoods, and the map ranks
+      candidate disease genes from their proximity neighbours.</p></div>`;
   attachSearch($("#heroSearch"), $("#heroSuggest"));
 }
 
