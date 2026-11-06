@@ -154,7 +154,7 @@ function home() {
   getJSON("data/neighbourhoods.json").then((nb) => { const el = $("#homecell"); if (nb && el) { el.innerHTML = cellFigure(nb, { list: true }); attachCell(el, nb); } });
 }
 
-async function genePage(gene) {
+async function genePage(gene, tab) {
   const entry = GENESET.get(gene.toUpperCase());
   if (!entry) { $("#app").innerHTML = `<h1>${esc(gene)}</h1><p class="muted">Not found in the atlas (not a bait or binding protein).</p>`; return; }
   const g = entry[0];
@@ -168,14 +168,15 @@ async function genePage(gene) {
       ${info.function ? `<span class="chip">${esc(info.function)}</span>` : ""}${m ? compChip(m.compartment) : ""}
       ${bait ? `<span class="badge high">bait · ${bait.comparisons.length} comparison${bait.comparisons.length > 1 ? "s" : ""}</span>` : ""}
       ${prot ? `<span class="badge">bound by ${new Set(prot.rows.map((r) => r[0])).size} baits</span>` : ""}</div>
-    <div class="tabs">${bait ? `<button data-t="bait">As bait</button>` : ""}${prot ? `<button data-t="prot">As binding protein</button>` : ""}</div>
+    <div class="tabs">${bait ? `<button data-t="bait">As bait</button>` : ""}${prot ? `<button data-t="prot">As binding protein</button>` : ""}<button data-t="net">Network</button></div>
     <div id="tab"></div>`;
   const show = (t) => {
     document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("on", b.dataset.t === t));
-    if (t === "bait") baitTab(bait); else protTab(prot);
+    $("#tooltip").hidden = true;
+    if (t === "bait") baitTab(bait); else if (t === "net") networkTab(g); else protTab(prot);
   };
   document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.t)));
-  show(bait ? "bait" : "prot");
+  show(tab === "net" ? "net" : tab === "prot" && prot ? "prot" : bait ? "bait" : "prot");
 }
 
 function baitTab(b) {
@@ -470,7 +471,7 @@ async function route() {
   const parts = path.split("/").filter(Boolean);
   window.scrollTo(0, 0);
   if (!parts.length) home();
-  else if (parts[0] === "gene" && parts[1]) await genePage(decodeURIComponent(parts[1]));
+  else if (parts[0] === "gene" && parts[1]) await genePage(decodeURIComponent(parts[1]), query.get("tab"));
   else if (parts[0] === "map") await mapPage(query);
   else if (parts[0] === "neighbourhoods") await neighbourhoodsPage(query);
   else if (parts[0] === "studies") await studiesPage(query);

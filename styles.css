@@ -132,3 +132,14 @@ tbody tr:hover { background: var(--surface2); }
 .cell-list .nm { flex: 1; }
 @media (max-width: 860px) { .cellfig.withlist { grid-template-columns: 1fr; } .cell-list { columns: 2; } }
 @media (max-width: 520px) { .cell-list { columns: 1; } }
+
+/* gene network */
+.netwrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.netwrap svg { display: block; width: 100%; height: auto; touch-action: none; user-select: none; }
+.netwrap text { fill: var(--ink2); font: 10px system-ui, sans-serif; pointer-events: none; }
+.netwrap text.cl { fill: var(--ink); font-weight: 700; font-size: 13px; }
+.netwrap .node { cursor: pointer; }
+.netwrap svg.focus .node:not(.hi) { opacity: .25; }
+.netwrap svg.focus line:not(.hi) { opacity: .08; }
+.netwrap svg.focus line.hi { stroke-opacity: 1; }
+.netlegend { margin-top: 8px; line-height: 1.6; }
