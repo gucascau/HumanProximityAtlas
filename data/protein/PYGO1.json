@@ -1,0 +1,1 @@
+{"gene":"PYGO1","name":"Pygopus homolog 1","uniprot":"Q9Y3Y4","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["WT1","WT1|WT1Proximity|NegKTSwt_vs_Mock",2.19,0.021715,0.119,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,1 +1,0 @@
-{"gene":"MXRA8","name":"Matrix remodeling-associated protein 8 (Limitrin)","uniprot":"Q9BRK3","function":"Adhesion/junction","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LMNA","LMNA|PXD010009|LMNA_BJ5_vs_controls",2.06,0.048267,0.07,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

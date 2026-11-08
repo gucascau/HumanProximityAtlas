@@ -1,0 +1,1 @@
+{"gene":"TRPT1","name":"tRNA 2'-phosphotransferase 1 (EC 2.7.1.160)","uniprot":"Q86TN4","function":"RNA processing","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBC1D22B","TBC1D22B|PXD060457|LL_TC1D22B_vs_controls",1.95,0.035465,0.006,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

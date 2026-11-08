@@ -1,0 +1,1 @@
+{"gene":"MAST3","name":"Microtubule-associated serine/threonine-protein kinase 3 (EC 2.7.11.1)","uniprot":"O60307","function":"Kinase","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FXR1","FXR1|PXD017330|NS_APEX_FXR1_vs_controls",1.86,0.046411,0.004,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

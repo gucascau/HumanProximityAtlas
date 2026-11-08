@@ -1,0 +1,1 @@
+{"gene":"DENND3","name":"DENN domain-containing protein 3","uniprot":"A2RUS2","function":"GTPase/regulator","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["WT1","WT1|WT1Proximity|NegKTSwt_vs_Mock",1.54,0.043616,0.017,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

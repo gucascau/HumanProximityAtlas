@@ -1,0 +1,1 @@
+{"gene":"RAB39B","name":"Ras-related protein Rab-39B (EC 3.6.5.2)","uniprot":"Q96DA2","function":"GTPase/regulator","location":"Golgi","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CFTR","CFTR|PXD035184|TurboID_CFTR_n_4_vs_controls",2.34,0.038943,0.354,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

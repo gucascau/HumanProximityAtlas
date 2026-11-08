@@ -1,0 +1,1 @@
+{"gene":"TYK2","name":"Non-receptor tyrosine-protein kinase TYK2 (EC 2.7.10.2)","uniprot":"P29597","function":"Kinase","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["INCENP","INCENP|PXD030963|INCENP_vs_controls",1.56,0.037291,0.972,"High","5 Novel"]],"disease_sets":[],"candidate":[]}

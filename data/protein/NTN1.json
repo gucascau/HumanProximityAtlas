@@ -1,0 +1,1 @@
+{"gene":"NTN1","name":"Netrin-1 (Epididymis tissue protein Li 131P)","uniprot":"O95631","function":"Receptor/signaling","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP6","PARP6|PXD052745|PARP6_vs_controls",2.8,0.039119,0.013,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

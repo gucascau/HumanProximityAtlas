@@ -1,0 +1,1 @@
+{"gene":"ZNF84","name":"Zinc finger protein 84 (Zinc finger protein HPF2)","uniprot":"P51523","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.39,0.003502,0.996,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"KIAA1958","name":"Uncharacterized protein KIAA1958","uniprot":"Q8N8K9","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["INCENP","INCENP|PXD030963|INCENP_vs_controls",2.49,0.017483,0.094,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

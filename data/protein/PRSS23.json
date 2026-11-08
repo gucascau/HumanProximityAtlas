@@ -1,0 +1,1 @@
+{"gene":"PRSS23","name":"Serine protease 23 (EC 3.4.21.-) (Putative secreted protein Zsig13)","uniprot":"O95084","function":"Chaperone/protease","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_BJ5_vs_controls",2.27,0.031375,0.674,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

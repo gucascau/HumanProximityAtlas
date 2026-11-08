@@ -1,0 +1,1 @@
+{"gene":"ZNF654","name":"Zinc finger protein 654 (Melanoma-associated antigen)","uniprot":"Q8IZM8","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FXR1","FXR1|PXD017330|S_APEX_FXR1_vs_controls",2.17,0.045653,0.272,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

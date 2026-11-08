@@ -1,0 +1,1 @@
+{"gene":"ZNF175","name":"Zinc finger protein 175 (Zinc finger protein OTK18)","uniprot":"Q9Y473","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.37,0.048288,0.977,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

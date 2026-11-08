@@ -1,0 +1,1 @@
+{"gene":"ZNF749","name":"Zinc finger protein 749","uniprot":"O43361","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",2.1,0.001267,0.998,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

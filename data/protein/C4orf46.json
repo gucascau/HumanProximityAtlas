@@ -1,0 +1,1 @@
+{"gene":"C4orf46","name":"Renal cancer differentiation gene 1 protein","uniprot":"Q504U0","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FOXL1","FOXL1|PXD038811|FOXL1_HEK_vs_controls",1.49,0.049353,0.372,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

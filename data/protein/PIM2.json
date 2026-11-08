@@ -1,0 +1,1 @@
+{"gene":"PIM2","name":"Serine/threonine-protein kinase pim-2 (EC 2.7.11.1) (Pim-2h)","uniprot":"Q9P1W9","function":"Kinase","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.15,0.019807,0.988,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

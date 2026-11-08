@@ -120,8 +120,8 @@ function home() {
   const s = INDEX.stats;
   $("#app").innerHTML = `<section class="hero">
     <h1>Human Proximity Atlas</h1>
-    <p class="lead">A uniform reanalysis of public proximity-labelling proteomics (BioID, TurboID, APEX) with
-    <a href="#/toolkit">ProxLabToolkit</a>: ${num(s.baits)} bait proteins, ${num(s.pairs)} bait–protein proximity pairs,
+    <p class="lead">A uniform reanalysis of public proximity-labelling proteomics (BioID, TurboID, miniTurbo, APEX), plus an
+    in-house WT1 dataset, with <a href="#/toolkit">ProxLabToolkit</a>: ${num(s.baits)} bait proteins, ${num(s.pairs)} bait–protein proximity pairs,
     and a proximity map that places ${num(s.assigned)} human proteins in subcellular neighbourhoods.</p>
     <div class="hero-search"><input id="heroSearch" type="search" placeholder="Search a bait or protein (e.g. VHL, LMNA, CCDC77)" autocomplete="off"><div class="suggest" id="heroSuggest"></div></div>
     <div class="examples small">Try: ${["VHL", "LMNA", "TARDBP", "CEP120", "CCDC77", "MFN2"].map(geneLink).join(" ")}</div></section>
@@ -403,12 +403,12 @@ async function neighbourhoodsPage(query) {
 async function studiesPage(query) {
   const st = await getJSON("data/studies.json");
   $("#app").innerHTML = `<h1 style="margin-top:22px">Studies</h1>
-    <p class="muted">Public proximity-labelling projects reanalysed uniformly (FragPipe → ProxLabToolkit). Only quality-passing comparisons are included.
+    <p class="muted">Public proximity-labelling projects reanalysed uniformly (FragPipe → ProxLabToolkit), plus one in-house WT1 miniTurbo dataset. Only quality-passing comparisons are included.
     Reliability tier: 1 = concordant with the original analysis or strong published support.</p><div id="stab"></div>`;
   const repoLink = (r) => r.repository === "MassIVE" && r.massive ? `https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=${r.massive}` : `https://www.ebi.ac.uk/pride/archive/projects/${r.pxd}`;
   table($("#stab"), {
     rows: st, pageSize: 100, csvName: "HPA_studies.csv", sort: ["comparisons", -1], columns: [
-      { key: "pxd", label: "Project", html: (r) => `<a href="${repoLink(r)}" target="_blank" rel="noopener">${esc(r.pxd)}</a>` },
+      { key: "pxd", label: "Project", html: (r) => (r.repository || "").startsWith("in-house") ? `${esc(r.pxd)} <span class="muted small">(in-house, unpublished)</span>` : `<a href="${repoLink(r)}" target="_blank" rel="noopener">${esc(r.pxd)}</a>` },
       { key: "pmid", label: "PubMed", html: (r) => r.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}" target="_blank" rel="noopener">${esc(r.pmid)}</a>` : "" },
       { key: "technology", label: "Technology" }, { key: "cell_line", label: "Cell line" },
       { key: "comparisons", label: "Comparisons", num: true }, { key: "baits", label: "Baits", num: true },
@@ -422,7 +422,7 @@ function downloadsPage() {
   const files = [
     ["HPA_binding_pairs.tsv.gz", "All bait–protein binding pairs per comparison: log2FC, P, adjusted P, fused score, confidence, evidence, published support."],
     ["HPA_comparisons.tsv.gz", "The bait-vs-control comparisons: project, technology, bait and control samples, QC."],
-    ["HPA_localization_predictions.tsv.gz", "Proximity-map predictions for 7,133 proteins: neighbourhood, compartment, confidence, reproducibility, neighbours, reference annotations."],
+    ["HPA_localization_predictions.tsv.gz", "Proximity-map predictions for 7,328 proteins: neighbourhood, compartment, confidence, reproducibility, neighbours, reference annotations."],
     ["HPA_neighbourhoods.tsv", "The 20 proximity neighbourhoods (NMF components) with top GO terms, proteins and baits."],
     ["HPA_studies.tsv", "Reanalysed projects with metadata, QC and reliability tier."],
     ["HPA_disease_enrichment.tsv.gz", "Disease gene-set enrichment per neighbourhood (OMIM, ClinVar, GWAS Catalog, COSMIC CGC, IntOGen)."],
@@ -451,7 +451,8 @@ function aboutPage() {
   const s = INDEX.stats;
   $("#app").innerHTML = `<h1 style="margin-top:22px">About</h1>
     <div class="grid2"><div class="card"><h3>The atlas</h3><p class="small">We collected human label-free DDA proximity-labelling datasets from ProteomeXchange, processed all raw files with one FragPipe workflow,
-      annotated baits and matched controls, and scored ${num(s.comparisons)} bait-vs-control comparisons with ProxLabToolkit. After quality control the atlas covers
+      annotated baits and matched controls, and scored ${num(s.comparisons)} bait-vs-control comparisons with ProxLabToolkit (including one in-house WT1 miniTurbo
+      comparison, searched separately with FragPipe 22 LFQ-MBR and scored identically). Proteins detected in every bait run but missing from most control runs are treated as below the detection limit in those controls. After quality control the atlas covers
       ${num(s.projects)} projects, ${num(s.baits)} baits and ${num(s.pairs)} binding pairs.</p>
       <p class="small">The proximity map decomposes the protein × bait matrix by non-negative matrix factorisation into 20 neighbourhoods and assigns ${num(s.assigned)} proteins
       to a compartment (${num(s.confident)} with high or medium confidence), validated against UniProt, the Human Protein Atlas and the Human Cell Map.</p></div>

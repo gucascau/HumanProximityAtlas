@@ -1,0 +1,1 @@
+{"gene":"H3-5","name":"Histone H3.3C (Histone H3.5)","uniprot":"Q6NXT2","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP6","PARP6|PXD052745|PARP6_vs_controls",5.38,0.004576,0.005,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

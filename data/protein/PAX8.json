@@ -1,0 +1,1 @@
+{"gene":"PAX8","name":"Paired box protein Pax-8","uniprot":"Q06710","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["WT1","WT1|WT1Proximity|NegKTSwt_vs_Mock",7.15,0.000215,0.996,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

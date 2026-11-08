@@ -1,0 +1,1 @@
+{"gene":"C3orf38","name":"Uncharacterized protein C3orf38","uniprot":"Q5JPI3","function":"Receptor/signaling","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TNKS2","TNKS2|PXD052745|PARP5B_vs_controls",2.61,0.049353,0.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"PRKCE","name":"Protein kinase C epsilon type (EC 2.7.11.13) (nPKC-epsilon)","uniprot":"Q02156","function":"Kinase","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TIPARP","TIPARP|PXD052745|PARP7_vs_controls",5.08,0.048464,0.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

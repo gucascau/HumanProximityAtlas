@@ -1,0 +1,1 @@
+{"gene":"TMEM132A","name":"Transmembrane protein 132A (HSPA5-binding protein 1)","uniprot":"Q24JP5","function":"Receptor/signaling","location":"Endoplasmic reticulum","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LAMP1","LAMP1|PXD067562|Lamp1_vs_controls",3.53,0.048249,0.114,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"FAM241A","name":"Uncharacterized protein FAM241A","uniprot":"Q8N8J7","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TNKS2","TNKS2|PXD052745|PARP5B_vs_controls",3.89,0.035932,0.0,"Standard","3 Known by proximity labelling"]],"disease_sets":[],"candidate":[]}

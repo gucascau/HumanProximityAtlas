@@ -1,0 +1,1 @@
+{"gene":"LYRM1","name":"LYR motif-containing protein 1","uniprot":"O43325","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TP53","TP53|PXD027734|markusP53_p53_STV_vs_controls",1.47,0.016559,0.988,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}
