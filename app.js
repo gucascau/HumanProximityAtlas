@@ -132,6 +132,13 @@ function home() {
       <div class="tile"><div class="v">${num(s.proteins)}</div><div class="l">binding proteins</div></div>
       <div class="tile"><div class="v">${num(s.assigned)}</div><div class="l">proteins localized on the map</div></div>
     </div>
+    <section class="card intro" style="margin:18px 0">
+      <h3>About the atlas</h3>
+      <p>Public proximity-labelling studies used different software, controls and cut-offs, so their results could not be
+      compared. We reprocessed them all in one way and scored every comparison with <a href="#/toolkit">ProxLabToolkit</a>,
+      then combined the studies into a map that places ${num(s.assigned)} proteins in 20 subcellular neighbourhoods. Look up
+      any bait or protein, see where poorly characterised proteins sit, or <a href="#/downloads">download</a> all tables.</p>
+    </section>
     <div class="grid4">
       <a class="card" href="#/map"><h3>Proximity map →</h3><p class="muted">Explore ${num(s.mapped)} proteins arranged by their proximity profiles across ${num(s.baits)} baits, coloured by predicted compartment.</p></a>
       <a class="card" href="#/neighbourhoods"><h3>Neighbourhoods →</h3><p class="muted">Twenty proximity neighbourhoods with marker proteins, baits and disease-gene enrichment.</p></a>
