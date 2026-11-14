@@ -1,0 +1,1 @@
+{"gene":"EML3","name":"Echinoderm microtubule-associated protein-like 3 (EMAP-3)","uniprot":"Q32P44","function":"Cell cycle/division","location":"Cytoskeleton","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.89,0.046217,0.946,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

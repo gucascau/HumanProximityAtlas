@@ -1,0 +1,1 @@
+{"gene":"CCNG1","name":"Cyclin-G1 (Cyclin-G)","uniprot":"P51959","function":"Cell cycle/division","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",2.09,0.002559,0.998,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

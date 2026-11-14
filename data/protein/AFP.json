@@ -1,1 +1,0 @@
-{"gene":"AFP","name":"Alpha-fetoprotein (Alpha-1-fetoprotein) (Alpha-fetoglobulin)","uniprot":"P02771","function":"Other/unclassified","location":"Secreted","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP11","PARP11|PXD052745|PARP11_vs_controls",4.29,0.026864,0.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

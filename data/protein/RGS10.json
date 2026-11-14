@@ -1,1 +1,0 @@
-{"gene":"RGS10","name":"Regulator of G protein signaling 10 (RGS10)","uniprot":"O43665","function":"GTPase/regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SP100","SP100|PXD026758|SP100_6600B_P131_vs_controls",3.24,0.012902,0.763,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

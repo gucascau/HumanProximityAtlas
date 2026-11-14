@@ -1,1 +1,0 @@
-{"gene":"CCNI","name":"Cyclin-I","uniprot":"Q14094","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["VHL","VHL|PXD053263|FmT_VHL_ACBI1_SGC_B_vs_controls",2.31,0.043867,0.904,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

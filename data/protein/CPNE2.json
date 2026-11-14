@@ -1,0 +1,1 @@
+{"gene":"CPNE2","name":"Copine-2 (Copine II)","uniprot":"Q96FN4","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["PARP9","PARP9|PXD052745|PARP9_vs_controls",3.58,0.034917,0.533,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

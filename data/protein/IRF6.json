@@ -1,1 +1,0 @@
-{"gene":"IRF6","name":"Interferon regulatory factor 6 (IRF-6)","uniprot":"O14896","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["YTHDF2","YTHDF2|PXD007201|YTHDF2_NtrBF_JY_Elt_vs_controls",2.45,0.027621,0.113,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

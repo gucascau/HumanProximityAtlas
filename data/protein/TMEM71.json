@@ -1,1 +1,0 @@
-{"gene":"TMEM71","name":"Transmembrane protein 71","uniprot":"Q6P5X7","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FBXW11","FBXW11|PXD001667|FlagBirA_FBXW11_BioID_MG132_vs_controls",6.7,0.002617,0.665,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

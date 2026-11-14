@@ -1,1 +1,0 @@
-{"gene":"ZNF668","name":"Zinc finger protein 668","uniprot":"Q96K58","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBP","TBP|PXD010009|TBP_HeLa3S_vs_controls",2.24,0.025881,0.947,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

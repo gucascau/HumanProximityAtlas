@@ -1,1 +1,0 @@
-{"gene":"MYD88","name":"Myeloid differentiation primary response protein MyD88","uniprot":"Q99836","function":"Other/unclassified","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",1.14,0.040293,0.965,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

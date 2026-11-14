@@ -1,1 +1,0 @@
-{"gene":"RINL","name":"Ras and Rab interactor-like protein","uniprot":"Q6ZS11","function":"GTPase/regulator","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TLK1","TLK1|PXD019450|TLK1_WT_yB_T_vs_controls",1.45,0.049004,0.01,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,0 +1,1 @@
+{"gene":"S100A13","name":"Protein S100-A13 (S100 calcium-binding protein A13)","uniprot":"Q99584","function":"Membrane trafficking","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["CFTR","CFTR|PXD035184|TurboID_CFTR_n_4_vs_controls",1.88,0.018538,0.971,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

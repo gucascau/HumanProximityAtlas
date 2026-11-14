@@ -1,1 +1,0 @@
-{"gene":"SIX1","name":"Homeobox protein SIX1 (Sine oculis homeobox homolog 1)","uniprot":"Q15475","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TARDBP","TARDBP|PXD048043|TARDBP_APEX2_Std_vs_controls",2.16,0.039588,0.987,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,1 +1,0 @@
-{"gene":"CREBL2","name":"cAMP-responsive element-binding protein-like 2","uniprot":"O60519","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["FBXW11","FBXW11|PXD001667|FlagBirA_FBXW11_BioID_MG132_vs_controls",2.5,0.020459,0.214,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

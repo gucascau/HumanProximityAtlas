@@ -1,1 +1,0 @@
-{"gene":"RADIL","name":"Ras-associating and dilute domain-containing protein","uniprot":"Q96JH8","function":"Adhesion/junction","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["LZTS2","LZTS2|PXD015554|LZTS2_vs_controls",2.16,0.011068,0.656,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

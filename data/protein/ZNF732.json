@@ -1,0 +1,1 @@
+{"gene":"ZNF732","name":"Zinc finger protein 732","uniprot":"B4DXR9","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TPMT","TPMT|PXD049317|FB_TPMT_MG132_TM_B_vs_controls",2.58,0.047266,0.113,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

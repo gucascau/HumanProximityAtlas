@@ -1,1 +1,0 @@
-{"gene":"LYRM2","name":"LYR motif-containing protein 2","uniprot":"Q9NU23","function":"Other/unclassified","location":"Mitochondrion","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["MDH2","MDH2|PXD018196|MDH2_P129_vs_controls",2.01,0.01643,0.991,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

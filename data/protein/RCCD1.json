@@ -1,1 +1,0 @@
-{"gene":"RCCD1","name":"RCC1 domain-containing protein 1","uniprot":"A6NED2","function":"Chromatin regulator","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["NDC80","NDC80|PXD038811|TID3_vs_controls",3.3,0.047466,0.353,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

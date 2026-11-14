@@ -1,1 +1,0 @@
-{"gene":"SRRD","name":"SRR1-like protein (SRR1 domain-containing protein)","uniprot":"Q9UH36","function":"Other/unclassified","location":"Cytoplasm","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["VHL","VHL|PXD053263|FmT_dVHL_ACBI1_A_SGC_vs_controls",1.72,0.029911,0.855,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

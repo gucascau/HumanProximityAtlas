@@ -1,0 +1,1 @@
+{"gene":"SS18L2","name":"SS18-like protein 2 (SYT homolog 2)","uniprot":"Q9UHA2","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TRIM52","TRIM52|PXD051272|T52_EPOX_vs_controls",2.07,0.012174,0.987,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

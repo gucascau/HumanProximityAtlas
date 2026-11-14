@@ -1,0 +1,1 @@
+{"gene":"THBS2","name":"Thrombospondin-2","uniprot":"P35442","function":"Adhesion/junction","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TBC1D22B","TBC1D22B|PXD060457|LL_TC1D22B_vs_controls",1.83,0.022384,0.007,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

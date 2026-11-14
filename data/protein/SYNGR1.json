@@ -1,1 +1,0 @@
-{"gene":"SYNGR1","name":"Synaptogyrin-1","uniprot":"O43759","function":"Other/unclassified","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TARDBP","TARDBP|PXD048043|TARDBP_APEX2_M20_vs_controls",0.94,0.038128,0.727,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -1,1 +1,0 @@
-{"gene":"MFAP3","name":"Microfibril-associated glycoprotein 3","uniprot":"P55082","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["TNKS2","TNKS2|PXD052745|PARP5B_vs_controls",3.5,0.047465,0.0,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

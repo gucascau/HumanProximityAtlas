@@ -1,1 +1,0 @@
-{"gene":"ZNF335","name":"Zinc finger protein 335 (NRC-interacting factor 1) (NIF-1)","uniprot":"Q9H4Z2","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["KLF15","KLF15|PXD026006|KLF15_vs_controls",2.5,0.020446,0.708,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

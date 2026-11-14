@@ -1,1 +1,0 @@
-{"gene":"ZNF722","name":"Zinc finger protein 722","uniprot":"A0A1W2PQL4","function":"Transcription regulator","location":"Nucleus","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SP100","SP100|PXD026758|SP100_6600B_P131_vs_controls",3.8,0.013439,0.763,null,"5 Novel"]],"disease_sets":[],"candidate":[]}

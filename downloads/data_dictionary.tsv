@@ -1,0 +1,252 @@
+file	column	description
+1_experiments/projects.tsv	project	ProteomeXchange (PXD) or MassIVE (MSV) identifier; WT1Proximity = this study
+1_experiments/projects.tsv	collection	Source collection of the raw data: PLStream (public), PLStream_curated, ProxLabelTest (public, curated by us), WT1Proximity (this study)
+1_experiments/projects.tsv	repository	Repository holding the raw data
+1_experiments/projects.tsv	MassIVE_id	MassIVE identifier, if any
+1_experiments/projects.tsv	pubmed_id	PubMed ID of the original publication, if known
+1_experiments/projects.tsv	technology	Labelling enzyme (BioID, TurboID, miniTurbo, APEX, ...)
+1_experiments/projects.tsv	cell_line	Cell line(s) used
+1_experiments/projects.tsv	comparisons_analysed	Bait-vs-control comparisons analysed
+1_experiments/projects.tsv	comparisons_in_atlas	Comparisons passing QC (in the atlas)
+1_experiments/projects.tsv	bait_genes_in_atlas	Bait genes with at least one comparison in the atlas
+1_experiments/projects.tsv	calls	Bait-protein calls contributed to the atlas
+1_experiments/projects.tsv	median_calls_per_comparison	Median calls per comparison
+1_experiments/projects.tsv	reference_support_odds_ratio	Odds ratio of published support, called vs tested but not called pairs (ten reference resources)
+1_experiments/projects.tsv	recall_of_author_pairs	Fraction of author-reported pairs (BioGRID) recovered
+1_experiments/projects.tsv	reliability_tier	Project reliability tier (Tier 1 = highest)
+1_experiments/projects.tsv	tier_basis	Evidence used to assign the tier
+1_experiments/comparisons.tsv	comparison_id	Comparison identifier: bait gene|project|comparison
+1_experiments/comparisons.tsv	project	Project identifier
+1_experiments/comparisons.tsv	collection	Source collection
+1_experiments/comparisons.tsv	bait_gene	HGNC symbol of the bait
+1_experiments/comparisons.tsv	bait_function_class	Functional class of the bait (UniProt-derived)
+1_experiments/comparisons.tsv	bait_location_class	Subcellular location class of the bait (UniProt)
+1_experiments/comparisons.tsv	technology	Labelling enzyme
+1_experiments/comparisons.tsv	enzyme_detail	Enzyme construct details, where reported
+1_experiments/comparisons.tsv	bait_condition	Bait condition (sample group) analysed
+1_experiments/comparisons.tsv	comparison	Comparison label as analysed (bait vs control)
+1_experiments/comparisons.tsv	control_conditions	Control condition(s)
+1_experiments/comparisons.tsv	control_selection	How the controls were chosen
+1_experiments/comparisons.tsv	n_bait_samples	Bait replicates
+1_experiments/comparisons.tsv	n_control_samples	Control replicates
+1_experiments/comparisons.tsv	proteins_tested	Proteins tested in the comparison
+1_experiments/comparisons.tsv	bait_rank	Rank of the bait protein among tested proteins by enrichment (QC)
+1_experiments/comparisons.tsv	calls	Proteins called (bait excluded)
+1_experiments/comparisons.tsv	calls_high_support	Calls supported by both quantification branches
+1_experiments/comparisons.tsv	is_representative	Representative comparison of its bait gene in its project (used where one comparison per bait gene is needed)
+1_experiments/comparisons_excluded.tsv	comparison_id	Comparison identifier
+1_experiments/comparisons_excluded.tsv	collection	Source collection
+1_experiments/comparisons_excluded.tsv	bait_gene	Bait gene
+1_experiments/comparisons_excluded.tsv	qc_reason	Reason for exclusion (toolkit QC)
+1_experiments/comparisons_excluded.tsv	raw_intensity_qc	Result of the method-independent raw-intensity QC (Extended Data Fig. 8)
+1_experiments/comparisons_excluded.tsv	n_bait_samples	Bait replicates
+1_experiments/comparisons_excluded.tsv	n_control_samples	Control replicates
+1_experiments/comparison_statistics.tsv.gz	comparison_id	Comparison identifier
+1_experiments/comparison_statistics.tsv.gz	bait_gene	Bait gene
+1_experiments/comparison_statistics.tsv.gz	protein	Protein (gene symbol) tested
+1_experiments/comparison_statistics.tsv.gz	log2FC	log2 fold change, bait vs control (largest of the intensity tests)
+1_experiments/comparison_statistics.tsv.gz	log2FC_count	log2 fold change from the count branch
+1_experiments/comparison_statistics.tsv.gz	P	Combined P value (Fisher combination with robust dependence correction)
+1_experiments/comparison_statistics.tsv.gz	adj_P	Benjamini-Hochberg adjusted combined P value
+1_experiments/comparison_statistics.tsv.gz	n_tests	Intensity tests run
+1_experiments/comparison_statistics.tsv.gz	n_tests_significant	Intensity tests significant (vote)
+1_experiments/comparison_statistics.tsv.gz	count_posterior	Posterior probability of enrichment, count branch
+1_experiments/comparison_statistics.tsv.gz	intensity_posterior	Posterior probability of enrichment, intensity branch
+1_experiments/comparison_statistics.tsv.gz	fused_score	Fused interactome score (0-1) combining both branches
+1_experiments/comparison_statistics.tsv.gz	evidence	Branches supporting enrichment (Both, Intensity_only, ...)
+1_experiments/comparison_statistics.tsv.gz	called	Called by the atlas rule: adjusted P <= 0.05, log2 fold change > 0.25 and >= 3 intensity tests significant (ProxLabToolkit default); bait itself excluded
+2_calls/calls.tsv.gz	comparison_id	Comparison identifier
+2_calls/calls.tsv.gz	project	Project identifier
+2_calls/calls.tsv.gz	collection	Source collection
+2_calls/calls.tsv.gz	technology	Labelling enzyme
+2_calls/calls.tsv.gz	bait_gene	Bait gene
+2_calls/calls.tsv.gz	bait_condition	Bait condition
+2_calls/calls.tsv.gz	protein	Called protein (gene symbol)
+2_calls/calls.tsv.gz	uniprot	UniProt accession of the called protein
+2_calls/calls.tsv.gz	protein_name	Protein name (UniProt)
+2_calls/calls.tsv.gz	protein_function_class	Functional class of the protein
+2_calls/calls.tsv.gz	protein_location_class	Location class of the protein (UniProt)
+2_calls/calls.tsv.gz	log2FC	log2 fold change, bait vs control
+2_calls/calls.tsv.gz	P	Combined P value
+2_calls/calls.tsv.gz	adj_P	Adjusted combined P value
+2_calls/calls.tsv.gz	fused_score	Fused interactome score (0-1)
+2_calls/calls.tsv.gz	evidence	Branches supporting enrichment
+2_calls/calls.tsv.gz	support_tier	High = supported by both quantification branches; Standard = intensity only
+2_calls/calls.tsv.gz	n_tests_significant	Intensity tests significant (vote; >= 3 required)
+2_calls/calls.tsv.gz	n_baits_binding	Atlas bait genes for which the protein is called
+2_calls/calls.tsv.gz	prior_evidence	Prior evidence for the bait gene-protein pair: known physical interaction, co-complex (CORUM), reported by proximity labelling, or no prior report
+2_calls/calls.tsv.gz	is_representative	From the representative comparison of the bait gene in the project
+2_calls/calls.tsv.gz	is_background_carboxylase	Endogenously biotinylated carboxylase (PC, PCCA/B, MCCC1/2, ACACA/B): background
+2_calls/pairs.tsv.gz	bait_gene	Bait gene
+2_calls/pairs.tsv.gz	protein	Called protein (gene symbol)
+2_calls/pairs.tsv.gz	uniprot	UniProt accession
+2_calls/pairs.tsv.gz	prior_evidence	Prior evidence for the pair (see calls.tsv.gz)
+2_calls/pairs.tsv.gz	supporting_sources	Reference resources reporting the pair
+2_calls/pairs.tsv.gz	n_sources	Number of reference resources reporting the pair
+2_calls/pairs.tsv.gz	n_comparisons	Atlas comparisons in which the pair is called
+2_calls/pairs.tsv.gz	n_projects	Projects in which the pair is called
+2_calls/pairs.tsv.gz	projects	Projects in which the pair is called (;-separated)
+2_calls/pairs.tsv.gz	max_fused_score	Highest fused score over the comparisons
+2_calls/pairs.tsv.gz	any_high_support	Called with High support tier in at least one comparison
+2_calls/pairs.tsv.gz	BioGRID_physical	Reported in BioGRID by non-proximity physical methods
+2_calls/pairs.tsv.gz	BioGRID_proximity	Reported in BioGRID by proximity labelling
+2_calls/pairs.tsv.gz	BioPlex_293T	Reported in BioPlex 293T
+2_calls/pairs.tsv.gz	BioPlex_HCT116	Reported in BioPlex HCT116
+2_calls/pairs.tsv.gz	CORUM	Bait and protein share a CORUM complex
+2_calls/pairs.tsv.gz	HuRI	Reported in HuRI (binary)
+2_calls/pairs.tsv.gz	HumanCellMap	Reported in the Human Cell Map (BioID)
+2_calls/pairs.tsv.gz	IntAct_physical	Reported in IntAct by non-proximity methods
+2_calls/pairs.tsv.gz	IntAct_proximity	Reported in IntAct by proximity labelling
+3_organisation/protein_map.tsv	protein	Protein (gene symbol)
+3_organisation/protein_map.tsv	uniprot	UniProt accession
+3_organisation/protein_map.tsv	protein_name	Protein name (UniProt)
+3_organisation/protein_map.tsv	neighbourhood_id	Neighbourhood (NMF component, 1-20)
+3_organisation/protein_map.tsv	neighbourhood	Neighbourhood name
+3_organisation/protein_map.tsv	compartment	Broader compartment of the neighbourhood
+3_organisation/protein_map.tsv	assignment_share	Share of the protein's NMF weight in its top neighbourhood
+3_organisation/protein_map.tsv	second_neighbourhood	Runner-up neighbourhood
+3_organisation/protein_map.tsv	second_share	Share in the runner-up neighbourhood
+3_organisation/protein_map.tsv	reproducibility	Fraction of refits on 80% of baits giving the same compartment
+3_organisation/protein_map.tsv	confidence	High / Medium / Low / Not assigned (strength, coverage, reproducibility); evidence tiers, not probabilities
+3_organisation/protein_map.tsv	n_baits_binding	Bait genes for which the protein is called
+3_organisation/protein_map.tsv	n_projects_binding	Projects in which the protein is called
+3_organisation/protein_map.tsv	prediction_status	Relation to UniProt: agrees; differs (did not replicate in the temporal hold-out; treat with caution); fills a gap (no UniProt location; weaker positive trend in the hold-out, supported by organelle-IP); not evaluable; or not assigned
+3_organisation/protein_map.tsv	uniprot_location	UniProt subcellular location
+3_organisation/protein_map.tsv	HPA_location	Human Protein Atlas immunofluorescence location
+3_organisation/protein_map.tsv	HPA_reliability	HPA reliability grade
+3_organisation/protein_map.tsv	HumanCellMap_location	Human Cell Map localization
+3_organisation/protein_map.tsv	agrees_UniProt	Compartment agrees with UniProt (cross-fitted)
+3_organisation/protein_map.tsv	agrees_HPA	Compartment agrees with HPA imaging
+3_organisation/protein_map.tsv	agrees_HumanCellMap	Compartment agrees with the Human Cell Map
+3_organisation/protein_map.tsv	in_HumanCellMap	Protein localized by the Human Cell Map
+3_organisation/protein_map.tsv	poorly_characterised	UniProt annotation score <= 3 or uncharacterised name
+3_organisation/protein_map.tsv	needs_integration	Placeable only by combining projects (no single project has >= 2 binding baits)
+3_organisation/protein_map.tsv	nearest_neighbours	Ten nearest proteins in the map (cosine of bait profiles)
+3_organisation/neighbourhoods.tsv	neighbourhood_id	Neighbourhood (NMF component)
+3_organisation/neighbourhoods.tsv	neighbourhood	Curated name
+3_organisation/neighbourhoods.tsv	compartment	Broader compartment
+3_organisation/neighbourhoods.tsv	n_proteins	Proteins assigned
+3_organisation/neighbourhoods.tsv	top_GO_cellular_component	Most enriched GO cellular-component term
+3_organisation/neighbourhoods.tsv	GO_P	P value of that term
+3_organisation/neighbourhoods.tsv	GO_term_2	Second GO term
+3_organisation/neighbourhoods.tsv	GO_term_3	Third GO term
+3_organisation/neighbourhoods.tsv	top_proteins	Highest-weighted proteins
+3_organisation/neighbourhoods.tsv	top_baits	Highest-weighted baits
+3_organisation/neighbourhoods.tsv	recovery_in_refits	Fraction of 100 refits on 80% of baits recovering the neighbourhood
+3_organisation/bait_clusters.tsv	bait_gene	Bait gene
+3_organisation/bait_clusters.tsv	cluster	Bait cluster (Fig. 4d)
+3_organisation/bait_clusters.tsv	cluster_name	Curated cluster name
+3_organisation/bait_clusters.tsv	bait_function_class	Functional class of the bait
+3_organisation/bait_clusters.tsv	bait_location_class	Location class of the bait (UniProt)
+3_organisation/compartment_cores.tsv	compartment	Bait compartment
+3_organisation/compartment_cores.tsv	protein	Core protein
+3_organisation/compartment_cores.tsv	uniprot	UniProt accession
+3_organisation/compartment_cores.tsv	n_compartment_baits	Bait genes of the compartment
+3_organisation/compartment_cores.tsv	n_baits_binding	Of these, baits binding the protein
+3_organisation/compartment_cores.tsv	share_of_baits	Share of the compartment's baits (quantified) binding the protein
+3_organisation/compartment_cores.tsv	share_other_compartments	Share among baits of other compartments
+3_organisation/compartment_cores.tsv	n_projects	Projects supporting the membership
+3_organisation/compartment_cores.tsv	odds_ratio	Enrichment vs other compartments
+3_organisation/compartment_cores.tsv	adj_P	Benjamini-Hochberg adjusted P
+3_organisation/compartment_cores.tsv	protein_location	The protein's own location class (UniProt)
+3_organisation/compartment_cores.tsv	location_matches	Protein location matches the compartment
+3_organisation/background_proteins.tsv	protein	Protein called in >= 25% of projects regardless of bait (empirical background)
+3_organisation/background_proteins.tsv	uniprot	UniProt accession
+3_organisation/background_proteins.tsv	share_of_projects	Share of all projects in which it is called
+3_organisation/background_proteins.tsv	n_projects_binding	Projects in which it is called
+3_organisation/background_proteins.tsv	n_baits_binding	Bait genes for which it is called
+3_organisation/background_proteins.tsv	n_comparisons_binding	Comparisons in which it is called
+3_organisation/background_proteins.tsv	median_log2FC	Median log2 fold change when called
+3_organisation/background_proteins.tsv	HCM_control_frequency	Frequency in Human Cell Map / CRAPome controls
+3_organisation/background_proteins.tsv	is_background_carboxylase	Endogenously biotinylated carboxylase
+3_organisation/background_proteins.tsv	location_class	Location class (UniProt)
+3_organisation/background_proteins.tsv	function_class	Functional class
+4_applications/disease_enrichment.tsv	gene_set_family	Gene-set family (OMIM, ClinVar, GWAS, cancer)
+4_applications/disease_enrichment.tsv	gene_set	Disease gene set
+4_applications/disease_enrichment.tsv	neighbourhood	Neighbourhood
+4_applications/disease_enrichment.tsv	n_neighbourhood	Proteins in the neighbourhood
+4_applications/disease_enrichment.tsv	n_gene_set	Gene-set genes in the map
+4_applications/disease_enrichment.tsv	overlap	Gene-set genes in the neighbourhood
+4_applications/disease_enrichment.tsv	expected	Expected overlap
+4_applications/disease_enrichment.tsv	odds_ratio	Odds ratio (Fisher)
+4_applications/disease_enrichment.tsv	P	Fisher P
+4_applications/disease_enrichment.tsv	adj_odds_ratio	Odds ratio adjusted for baits binding/quantifying and annotation score (logistic regression)
+4_applications/disease_enrichment.tsv	adj_P	P of the adjusted test
+4_applications/disease_enrichment.tsv	BH	Benjamini-Hochberg of P
+4_applications/disease_enrichment.tsv	significant	BH <= 0.05, adjusted P <= 0.05 and odds ratio > 1
+4_applications/disease_enrichment.tsv	genes	Overlapping genes
+4_applications/disease_prediction_performance.tsv	gene_set_family	Gene-set family
+4_applications/disease_prediction_performance.tsv	gene_set	Disease class
+4_applications/disease_prediction_performance.tsv	n_genes	Known genes in the map
+4_applications/disease_prediction_performance.tsv	AUC_map_neighbours	ROC AUC of the neighbour score (25 nearest neighbours, own label excluded)
+4_applications/disease_prediction_performance.tsv	AUC_neighbourhood_only	ROC AUC of neighbourhood membership alone
+4_applications/disease_prediction_performance.tsv	AUC_bait_count	ROC AUC of the number of baits binding (bias control)
+4_applications/disease_prediction_performance.tsv	AUC_random_mean	Mean AUC of bait-count-matched random gene sets
+4_applications/disease_prediction_performance.tsv	AUC_random_95th	95th percentile of the random AUCs
+4_applications/disease_prediction_performance.tsv	P_random	Empirical P vs random sets
+4_applications/disease_candidates.tsv	disease_class	Disease class
+4_applications/disease_candidates.tsv	rank	Rank among non-member proteins
+4_applications/disease_candidates.tsv	protein	Candidate protein
+4_applications/disease_candidates.tsv	uniprot	UniProt accession
+4_applications/disease_candidates.tsv	protein_name	Protein name
+4_applications/disease_candidates.tsv	score	Neighbour score
+4_applications/disease_candidates.tsv	known_disease_neighbours	Known disease genes among its map neighbours
+4_applications/disease_candidates.tsv	neighbourhood	Map neighbourhood
+4_applications/disease_candidates.tsv	confidence	Map confidence
+4_applications/disease_candidates.tsv	shares_CORUM_complex_with_known	Shares a CORUM complex with a known gene of the class
+4_applications/disease_candidates.tsv	outside_known_complexes	Not a member of a known disease complex of the class
+4_applications/disease_candidates.tsv	ClinVar_pathogenic_same_class	ClinVar pathogenic/likely pathogenic for the same class (not in the OMIM training set)
+4_applications/disease_candidates_clinvar_check.tsv	gene_set	Disease class
+4_applications/disease_candidates_clinvar_check.tsv	top_candidates	Top 1% candidates
+4_applications/disease_candidates_clinvar_check.tsv	clinvar_only_in_top	Of these, ClinVar pathogenic genes outside OMIM training
+4_applications/disease_candidates_clinvar_check.tsv	P	Fisher P vs other proteins
+4_applications/disease_candidates_clinvar_check.tsv	novel_candidates	Top candidates outside known disease complexes
+4_applications/disease_candidates_clinvar_check.tsv	clinvar_only_in_novel	Of these, ClinVar-supported
+4_applications/disease_candidates_clinvar_check.tsv	P_novel	Fisher P, candidates outside known complexes
+4_applications/disease_candidates_clinvar_check.tsv	genes	ClinVar-supported candidates
+4_applications/disease_candidates_clinvar_check.tsv	genes_novel	ClinVar-supported candidates outside known complexes
+4_applications/validation_candidates.tsv	tier	A: no HPA imaging; B: HPA disagrees; C: HPA agrees (positive control)
+4_applications/validation_candidates.tsv	protein	Protein
+4_applications/validation_candidates.tsv	protein_name	Protein name
+4_applications/validation_candidates.tsv	predicted_compartment	Predicted compartment
+4_applications/validation_candidates.tsv	component_label	Neighbourhood
+4_applications/validation_candidates.tsv	score	Assignment share
+4_applications/validation_candidates.tsv	reproducibility	Reproducibility in refits
+4_applications/validation_candidates.tsv	n_baits_binding	Baits binding
+4_applications/validation_candidates.tsv	n_projects_binding	Projects binding
+4_applications/validation_candidates.tsv	in_HumanCellMap	Localized by the Human Cell Map
+4_applications/validation_candidates.tsv	HPA_location	HPA location
+4_applications/validation_candidates.tsv	HPA_reliability	HPA reliability
+4_applications/validation_candidates.tsv	why_poorly_characterised	Reason it counts as poorly characterised
+4_applications/validation_candidates.tsv	neighbours	Nearest map neighbours
+4_applications/validation_candidates.tsv	marker	Suggested co-staining marker
+4_applications/validation_candidates.tsv	priority_score	Ranking score
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	neighbourhood	WT1 partners by held-out neighbourhood (Fig. 7b)
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	compartment	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	called	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	tested	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	frac_called	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	frac_tested	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	odds_ratio	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	P	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	FDR	
+4_applications/wt1_query_example/neighbourhood_enrichment.tsv	fold	
+4_applications/wt1_query_example/bait_placement.tsv	neighbourhood	WT1 bait placed on the held-out map (Fig. 7c)
+4_applications/wt1_query_example/bait_placement.tsv	share	
+4_applications/wt1_query_example/nearest_baits.tsv	bait	Atlas baits closest to WT1 (Fig. 7d)
+4_applications/wt1_query_example/nearest_baits.tsv	shared	
+4_applications/wt1_query_example/nearest_baits.tsv	n_partners	
+4_applications/wt1_query_example/nearest_baits.tsv	overlap	
+4_applications/wt1_query_example/nearest_baits.tsv	function_class	
+4_applications/wt1_query_example/network_nodes.tsv	comparison_id	High-confidence WT1 partners (Fig. 7e)
+4_applications/wt1_query_example/network_nodes.tsv	bait_gene	
+4_applications/wt1_query_example/network_nodes.tsv	prey	
+4_applications/wt1_query_example/network_nodes.tsv	max_logFC	
+4_applications/wt1_query_example/network_nodes.tsv	FinaladjP_FisherCorrected	
+4_applications/wt1_query_example/network_nodes.tsv	n_methods_hit	
+4_applications/wt1_query_example/network_nodes.tsv	Fused_Score	
+4_applications/wt1_query_example/network_nodes.tsv	called	
+4_applications/wt1_query_example/network_nodes.tsv	n_other_baits	
+4_applications/wt1_query_example/network_nodes.tsv	neighbourhood	
+4_applications/wt1_query_example/network_nodes.tsv	compartment	
+4_applications/wt1_query_example/network_nodes.tsv	known_partner	

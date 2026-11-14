@@ -1,0 +1,1 @@
+{"gene":"TMC5","name":"Transmembrane channel-like protein 5","uniprot":"Q6UXY8","function":"Transporter/channel","location":"Other/unclassified","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["RPL4","RPL4|PXD070586|RPL4_N266_miniTurbo_vs_controls",1.65,0.015248,0.879,"Standard","5 Novel"]],"disease_sets":[],"candidate":[]}

@@ -120,8 +120,8 @@ function home() {
   const s = INDEX.stats;
   $("#app").innerHTML = `<section class="hero">
     <h1>Human Proximity Atlas</h1>
-    <p class="lead">A uniform reanalysis of public proximity-labelling proteomics (BioID, TurboID, APEX) with
-    <a href="#/toolkit">ProxLabToolkit</a>: ${num(s.baits)} bait proteins, ${num(s.pairs)} bait–protein proximity pairs,
+    <p class="lead">A uniform reanalysis of public proximity-labelling proteomics (BioID, TurboID, miniTurbo, APEX), plus an
+    in-house WT1 dataset, with <a href="#/toolkit">ProxLabToolkit</a>: ${num(s.baits)} bait proteins, ${num(s.pairs)} bait–protein proximity pairs,
     and a proximity map that places ${num(s.assigned)} human proteins in subcellular neighbourhoods.</p>
     <div class="hero-search"><input id="heroSearch" type="search" placeholder="Search a bait or protein (e.g. VHL, LMNA, CCDC77)" autocomplete="off"><div class="suggest" id="heroSuggest"></div></div>
     <div class="examples small">Try: ${["VHL", "LMNA", "TARDBP", "CEP120", "CCDC77", "MFN2"].map(geneLink).join(" ")}</div></section>
@@ -186,7 +186,7 @@ function baitTab(b) {
       <dt>Function class</dt><dd>${esc(b.function || "–")}</dd><dt>UniProt location</dt><dd>${esc(b.location || "–")}</dd>
       <dt>Comparisons</dt><dd>${comps.length} (${new Set(comps.map((c) => c.pxd)).size} project${new Set(comps.map((c) => c.pxd)).size > 1 ? "s" : ""})</dd>
       <dt>Binding proteins</dt><dd>${num(new Set(b.rows.map((r) => r[0])).size)} unique</dd></dl></div>
-      <div class="card"><h3>How to read this</h3><p class="small muted">Binding = consensus adjusted P ≤ 0.05 and log2 fold change &gt; 0.25 against matched controls (ProxLabToolkit).
+      <div class="card"><h3>How to read this</h3><p class="small muted">Binding = consensus adjusted P ≤ 0.05, log2 fold change &gt; 0.25 and at least three intensity tests significant, against matched controls (ProxLabToolkit, robust dependence correction).
       Fused score: dual-branch (spectral count × intensity) confidence, 0–1. Support: best published evidence (BioGRID, BioPlex, CORUM, HuRI, IntAct, Human Cell Map).
       ${b.core_assessed ? "Core: bound in ≥ 80% of this bait's comparisons where quantified." : ""}</p></div></div>
     <h2>Binding proteins</h2><div class="toolbar"><label>Comparison <select class="field" id="csel"><option value="-1">All comparisons (best per protein)</option>
@@ -256,11 +256,12 @@ function protTab(p) {
       <dt>Confidence</dt><dd><span class="badge ${m.confidence === "High" ? "high" : ""}">${esc(m.confidence)}</span> <span class="small muted">score ${fmt(m.score)} · reproduced in ${Math.round((m.reproducibility || 0) * 100)}% of refits</span></dd>
       <dt>Runner-up</dt><dd class="small">${esc(m.second || "")} (${fmt(m.second_score)})</dd>
       <dt>Evidence</dt><dd class="small">bound by ${m.n_baits} baits from ${m.n_projects ?? "?"} projects</dd>
+      ${m.status ? `<dt>Relation to UniProt</dt><dd class="small">${esc(m.status)}${m.status === "differs from UniProt" ? `<br><span class="muted">Assignments that differ from UniProt did not replicate as a class when tested on later experiments; treat this one as a hypothesis.</span>` : ""}</dd>` : ""}
       ${m.neighbour_function ? `<dt>Neighbours suggest</dt><dd class="small">${esc(m.neighbour_function)}</dd>` : ""}
       ${m.poorly || m.no_uniprot_location ? `<dt>Note</dt><dd class="small">${m.poorly ? "poorly characterised" : ""}${m.poorly && m.no_uniprot_location ? "; " : ""}${m.no_uniprot_location ? "no UniProt subcellular location" : ""}</dd>` : ""}
       </dl>` : `<p class="muted small">Bound by fewer than two baits, so not placed on the proximity map.</p>`}
       <canvas id="mini" style="width:100%;height:220px;margin-top:10px;${m ? "" : "display:none"}"></canvas>
-      ${m && m.component && m.component !== 6 && m.component !== 19 ? `<div id="protcell" style="margin-top:10px"></div>` : ""}</div>
+      ${m && m.component && !NB_NOT_DRAWN.has(m.component) ? `<div id="protcell" style="margin-top:10px"></div>` : ""}</div>
     <div class="card"><h3>Reference annotations</h3><dl class="kv">
       <dt>UniProt</dt><dd class="small">${esc((m && m.uniprot) || p.location || "–")}</dd>
       <dt>Human Protein Atlas</dt><dd class="small">${esc((m && m.hpa) || "–")} ${m && m.hpa_reliability ? `<span class="muted">(${esc(m.hpa_reliability)})</span>` : ""}</dd>
@@ -403,12 +404,12 @@ async function neighbourhoodsPage(query) {
 async function studiesPage(query) {
   const st = await getJSON("data/studies.json");
   $("#app").innerHTML = `<h1 style="margin-top:22px">Studies</h1>
-    <p class="muted">Public proximity-labelling projects reanalysed uniformly (FragPipe → ProxLabToolkit). Only quality-passing comparisons are included.
+    <p class="muted">Public proximity-labelling projects reanalysed uniformly (FragPipe → ProxLabToolkit), plus one in-house WT1 miniTurbo dataset. Only quality-passing comparisons are included.
     Reliability tier: 1 = concordant with the original analysis or strong published support.</p><div id="stab"></div>`;
   const repoLink = (r) => r.repository === "MassIVE" && r.massive ? `https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=${r.massive}` : `https://www.ebi.ac.uk/pride/archive/projects/${r.pxd}`;
   table($("#stab"), {
     rows: st, pageSize: 100, csvName: "HPA_studies.csv", sort: ["comparisons", -1], columns: [
-      { key: "pxd", label: "Project", html: (r) => `<a href="${repoLink(r)}" target="_blank" rel="noopener">${esc(r.pxd)}</a>` },
+      { key: "pxd", label: "Project", html: (r) => (r.repository || "").startsWith("in-house") ? `${esc(r.pxd)} <span class="muted small">(in-house, unpublished)</span>` : `<a href="${repoLink(r)}" target="_blank" rel="noopener">${esc(r.pxd)}</a>` },
       { key: "pmid", label: "PubMed", html: (r) => r.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}" target="_blank" rel="noopener">${esc(r.pmid)}</a>` : "" },
       { key: "technology", label: "Technology" }, { key: "cell_line", label: "Cell line" },
       { key: "comparisons", label: "Comparisons", num: true }, { key: "baits", label: "Baits", num: true },
@@ -418,20 +419,14 @@ async function studiesPage(query) {
   if (query.get("q")) { const f = $("#stab input"); f.value = query.get("q"); f.dispatchEvent(new Event("input")); }
 }
 
-function downloadsPage() {
-  const files = [
-    ["HPA_binding_pairs.tsv.gz", "All bait–protein binding pairs per comparison: log2FC, P, adjusted P, fused score, confidence, evidence, published support."],
-    ["HPA_comparisons.tsv.gz", "The bait-vs-control comparisons: project, technology, bait and control samples, QC."],
-    ["HPA_localization_predictions.tsv.gz", "Proximity-map predictions for 7,133 proteins: neighbourhood, compartment, confidence, reproducibility, neighbours, reference annotations."],
-    ["HPA_neighbourhoods.tsv", "The 20 proximity neighbourhoods (NMF components) with top GO terms, proteins and baits."],
-    ["HPA_studies.tsv", "Reanalysed projects with metadata, QC and reliability tier."],
-    ["HPA_disease_enrichment.tsv.gz", "Disease gene-set enrichment per neighbourhood (OMIM, ClinVar, GWAS Catalog, COSMIC CGC, IntOGen)."],
-    ["HPA_disease_candidates.tsv.gz", "Candidate disease genes ranked by proximity-map neighbours, with CORUM novelty flags."]];
+async function downloadsPage() {
+  const files = await getJSON("data/downloads.json");
+  const layers = [...new Set(files.map((f) => f.layer))];
   $("#app").innerHTML = `<h1 style="margin-top:22px">Downloads</h1>
-    <p class="muted">Tab-separated tables (version ${esc(INDEX.stats.version)}). Binding: consensus adjusted P ≤ 0.05 and log2FC &gt; 0.25.</p>
-    <div class="tablewrap"><table><thead><tr><th>File</th><th>Contents</th></tr></thead><tbody>
-    ${files.map((f) => `<tr><td><a href="downloads/${f[0]}" download>${f[0]}</a></td><td style="white-space:normal">${esc(f[1])}</td></tr>`).join("")}</tbody></table></div>
-    <p class="note" style="margin-top:16px">Raw data: the original ProteomeXchange projects (see <a href="#/studies">Studies</a>). Processing code: <a href="${GITHUB}" target="_blank" rel="noopener">ProxLabToolkit on GitHub</a>.</p>`;
+    <p class="muted">Tab-separated tables of the Human Proximity Atlas release, version ${esc(INDEX.stats.version)}, with a data dictionary. Call: consensus adjusted P ≤ 0.05, log2FC &gt; 0.25 and at least three intensity tests significant.</p>
+    ${layers.map((L) => `<h3 style="margin-top:18px">${esc(L)}</h3><div class="tablewrap"><table style="table-layout:fixed"><colgroup><col style="width:34%"><col style="width:10%"><col></colgroup><thead><tr><th>File</th><th>Rows</th><th>Contents</th></tr></thead><tbody>
+    ${files.filter((f) => f.layer === L).map((f) => `<tr><td><a href="downloads/${f.file}" download>${esc(f.file)}</a></td><td class="num">${f.rows != null ? num(f.rows) : ""}</td><td style="white-space:normal">${esc(f.desc)}</td></tr>`).join("")}</tbody></table></div>`).join("")}
+    <p class="note" style="margin-top:16px">The full per-comparison statistics for every tested protein (1.7 million rows) and the Supplementary Tables (Excel) are in the archived release (Zenodo DOI to be added). Raw data: the original ProteomeXchange projects (see <a href="#/studies">Studies</a>). Processing code: <a href="${GITHUB}" target="_blank" rel="noopener">ProxLabToolkit on GitHub</a>.</p>`;
 }
 
 function toolkitPage() {
@@ -451,7 +446,8 @@ function aboutPage() {
   const s = INDEX.stats;
   $("#app").innerHTML = `<h1 style="margin-top:22px">About</h1>
     <div class="grid2"><div class="card"><h3>The atlas</h3><p class="small">We collected human label-free DDA proximity-labelling datasets from ProteomeXchange, processed all raw files with one FragPipe workflow,
-      annotated baits and matched controls, and scored ${num(s.comparisons)} bait-vs-control comparisons with ProxLabToolkit. After quality control the atlas covers
+      annotated baits and matched controls, and scored ${num(s.comparisons)} bait-vs-control comparisons with ProxLabToolkit (including one in-house WT1 miniTurbo
+      comparison, searched separately with FragPipe 22 LFQ-MBR and scored identically). Proteins detected in every bait run but missing from most control runs are treated as below the detection limit in those controls. After quality control the atlas covers
       ${num(s.projects)} projects, ${num(s.baits)} baits and ${num(s.pairs)} binding pairs.</p>
       <p class="small">The proximity map decomposes the protein × bait matrix by non-negative matrix factorisation into 20 neighbourhoods and assigns ${num(s.assigned)} proteins
       to a compartment (${num(s.confident)} with high or medium confidence), validated against UniProt, the Human Protein Atlas and the Human Cell Map.</p></div>

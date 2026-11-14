@@ -1,1 +1,0 @@
-{"gene":"BTN3A2","name":"Butyrophilin subfamily 3 member A2","uniprot":"P78410","function":"Other/unclassified","location":"Plasma membrane/junction","map":null,"cols":["bait","comparison","logFC","adjP","fused","confidence","support"],"rows":[["SAR1B","SAR1B|PXD009368|SAR1B_CT_BirFL_vs_controls",1.58,0.013829,0.998,"High","5 Novel"]],"disease_sets":[],"candidate":[]}
